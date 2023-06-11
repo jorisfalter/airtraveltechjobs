@@ -1,4 +1,5 @@
 import React from "react";
+import customData from "./customData.json";
 
 function Featured() {
   return (
@@ -17,13 +18,11 @@ function Featured() {
           <title>Placeholder</title>
           <rect width="100%" height="100%" fill="#55595c" />
           <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-            Thumbnail
+            {customData.companyName}
           </text>
         </svg>
         <div className="card-body">
-          <p className="card-text">
-            This is a cool company, and it's on a React Component
-          </p>
+          <p className="card-text">{customData.whyCool}</p>
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
               <button
