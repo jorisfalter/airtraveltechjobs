@@ -121,13 +121,13 @@ function App() {
         <section className="jumbotron text-center">
           <div className="container">
             <h1>Filters</h1>
-
+            Industry
             <p>
               <a href="#" className="btn btn-primary my-2">
-                Many more filter buttons here
+                Manufacturing
               </a>
               <a href="#" className="btn btn-secondary my-2">
-                Many Many more filter buttons here
+                OTA
               </a>
             </p>
           </div>
