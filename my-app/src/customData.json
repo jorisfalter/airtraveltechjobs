@@ -1,4 +1,14 @@
+[
 {
-"companyName": "New Cool Company", 
-"whyCool":"This is a cool company, and it's on a React Component, with data extracted from a JSON"
+    "companyName": "KLM", 
+    "whyCool":"Why Cool? Probably one of the most efficient airlines in the world, maximising using tech to optimise their operations even more."
+},
+{
+    "companyName": "Test company 1",
+    "whyCool":"blablabla1"
+},
+{
+    "companyName": "Test company 2",
+    "whyCool":"blablabla2"
 }
+]

@@ -1,7 +1,7 @@
 import React from "react";
 import customData from "./customData.json";
 
-function Featured(props) {
+function CompanyTile(props) {
   return (
     <div className="col-md-4">
       <div className="card mb-4 shadow-sm">
@@ -46,4 +46,4 @@ function Featured(props) {
   );
 }
 
-export default Featured;
+export default CompanyTile;
