@@ -1,0 +1,39 @@
+[
+{
+    "companyName": "KLM", 
+    "What Do They Do": "",
+    "whyCool":"Probably one of the most efficient airlines in the world, maximising using tech to optimise their operations even more.",
+    "industry":"",
+    "coolness":"",
+    "sustainability":"",
+    "featured": 1,
+    "URL": "",
+    "img":""
+},
+{
+    "companyName": "Heart Aerospace",
+    "What Do They Do": "",
+    "whyCool":"They are building the electric flying future!",
+    "industry":"",
+    "coolness":"",
+    "sustainability":"",
+    "featured": 0,
+    "URL": "",
+    "img":""
+
+
+},
+{
+    "companyName": "Boom Supersonic",
+    "What Do They Do": "",
+    "whyCool":"They are building very fast planes!",
+    "industry":"",
+    "coolness":"",
+    "sustainability":"",
+    "featured": 0,
+    "URL": "",
+    "img":""
+
+
+}
+]

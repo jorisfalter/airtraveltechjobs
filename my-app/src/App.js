@@ -3,8 +3,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Featured from "./Featured";
 import { Link } from "react-router-dom";
-import { Routes, Route } from "react-router-dom";
-import App2 from "./AllCompanies";
 
 function App() {
   return (
@@ -461,10 +459,6 @@ function App() {
         </div>
       </main>
       <Footer />
-      <Routes>
-        <Route path="/AllCompanies" component={App2} />
-        {/* <Route path="/" component={App2} /> */}
-      </Routes>
     </div>
   );
 }

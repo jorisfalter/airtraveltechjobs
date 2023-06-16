@@ -7,13 +7,17 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import App2 from "./AllCompanies";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <App2 />
+      <Routes>
+        <Route exact path="/AllCompanies" component={<App2 />} />
+      </Routes>
     </BrowserRouter>
     ,
   </React.StrictMode>

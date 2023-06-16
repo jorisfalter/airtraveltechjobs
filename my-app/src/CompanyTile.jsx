@@ -1,5 +1,5 @@
 import React from "react";
-import customData from "./customData.json";
+import companyList from "./companyList.json";
 
 function CompanyTile(props) {
   return (
@@ -18,11 +18,12 @@ function CompanyTile(props) {
           <title>Placeholder</title>
           <rect width="100%" height="100%" fill="#55595c" />
           <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-            {customData[props.item].companyName}
+            {companyList[props.item].companyName}
           </text>
         </svg>
         <div className="card-body">
-          <p className="card-text">{customData.whyCool}</p>
+          Why Cool?
+          <p className="card-text">{companyList[props.item].whyCool}</p>
           <div className="d-flex justify-content-between align-items-center">
             <div className="btn-group">
               <button

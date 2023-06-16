@@ -24,7 +24,7 @@ function App2() {
         </section>
 
         {/* <!-- Filters --> */}
-        <section className="jumbotron text-center">
+        {/* <section className="jumbotron text-center">
           <div className="container">
             <h1>Filters</h1>
             Industry
@@ -37,14 +37,11 @@ function App2() {
               </a>
             </p>
           </div>
-        </section>
+        </section> */}
 
-        {/* <!-- Featured Companies --> */}
+        {/* <!-- Companies --> */}
         <div className="album py-5 bg-light">
           <div className="container">
-            <div className="row">
-              <div className="col-md-4">All Companies</div>
-            </div>
             <div className="row">
               <CompanyTile item="0" />
               <CompanyTile item="1" />
