@@ -10,13 +10,32 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App2 from "./AllCompanies";
 
+// export default function App() {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//         <Route path="/" element={<Layout />}>
+//           <Route index element={<Home />} />
+//           <Route path="blogs" element={<Blogs />} />
+//           <Route path="contact" element={<Contact />} />
+//           <Route path="*" element={<NoPage />} />
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<App />);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App2 />
+      {/* <App /> */}
       <Routes>
-        <Route exact path="/AllCompanies" component={<App2 />} />
+        <Route path="/" element={<App />} />
+        <Route path="/AllCompanies" element={<App2 />} />
       </Routes>
     </BrowserRouter>
     ,
