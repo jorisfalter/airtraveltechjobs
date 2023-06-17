@@ -1,12 +1,12 @@
 import "./App.css";
-import Header from "./Header";
+import NewHeader from "./NewHeader";
 import Footer from "./Footer";
 import CompanyTile from "./CompanyTile";
 
 function App2() {
   return (
     <div>
-      <Header />
+      <NewHeader />
       <main role="main">
         {/* <!-- Welcome Message --> */}
         <section className="jumbotron text-center">
