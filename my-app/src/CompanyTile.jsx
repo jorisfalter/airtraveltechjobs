@@ -1,8 +1,10 @@
 import React from "react";
 import companyList from "./companyList.json";
-import boomsupersonic from "./boomsupersonic.jpg";
+import boomsupersonic from "./0.jpg";
 
 function CompanyTile(props) {
+  // import frontImage from {props.item} + ".jpg"
+
   return (
     <div className="col-md-4">
       <div className="card mb-4 shadow-sm">
@@ -22,12 +24,16 @@ function CompanyTile(props) {
             {companyList[props.item].companyName}
           </text>
         </svg> */}
-        <img
-          src={boomsupersonic}
-          className="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-        />
+        <div className="imageContainer">
+          <img
+            src={boomsupersonic}
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+          />
+          <div className="centered">Centered</div>
+        </div>
+
         <div className="card-body">
           Why Cool?
           <p className="card-text">{companyList[props.item].whyCool}</p>
