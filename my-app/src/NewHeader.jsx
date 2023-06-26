@@ -5,7 +5,7 @@ function NewHeader() {
     <header>
       <nav class="navbar navbar-expand navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-          Always expand
+          Air Travel Tech Jobs
         </a>
         <button
           class="navbar-toggler"
