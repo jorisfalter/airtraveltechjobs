@@ -7,10 +7,7 @@ function Footer() {
         <p className="float-right">
           <a href="/">Back to top</a>
         </p>
-        <p>
-          Album example is &copy; Bootstrap, but please download and customize
-          it for yourself!
-        </p>
+        <p>Air Travel Tech Jobs</p>
       </div>
     </footer>
   );

@@ -40,8 +40,8 @@ function App2() {
         </section> */}
 
         {/* <!-- Companies --> */}
-        <div className="album py-5 bg-light">
-          <div className="container">
+        <div className="album py-5 bg-light ">
+          <div className="container homepage-wrapper">
             <div className="row">
               <CompanyTile item="0" />
               <CompanyTile item="1" />

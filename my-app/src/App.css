@@ -7,6 +7,18 @@
   pointer-events: none;
 }
 
+.navbar{
+  padding: .5rem 1rem;
+  align-items: center;
+  
+}
+
+.homepage-wrapper{
+  max-width: 1100px;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
