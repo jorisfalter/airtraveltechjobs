@@ -1,6 +1,17 @@
 import React from "react";
 import companyList from "./companyList.json";
-import boomsupersonic from "./0.jpg";
+
+// from StackOverflow
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => {
+    images[item.replace("./", "")] = r(item);
+  });
+  return images;
+}
+const images = importAll(
+  require.context("./images", false, /\.(png|jpe?g|svg)$/)
+);
 
 function CompanyTile(props) {
   // import frontImage from {props.item} + ".jpg"
@@ -26,7 +37,7 @@ function CompanyTile(props) {
         </svg> */}
         <div className="imageContainer">
           <img
-            src={boomsupersonic}
+            src={images[companyList[props.item].img]}
             className="bd-placeholder-img card-img-top"
             width="100%"
             height="225"
