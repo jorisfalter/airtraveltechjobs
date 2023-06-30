@@ -40,24 +40,24 @@
     "hq": "Switzerland"
 },
 {
-    "companyName": "",
+    "companyName": "AirAsia",
     "What Do They Do": "",
-    "whyCool":"",
-    "industry":"",
+    "whyCool":"They have an uplifting vibe, motivated team, ...",
+    "industry":"Airline",
     "sustainability":"",
     "URL": "",
-    "img":"",
-    "hq": ""
+    "img":"airasia.jpeg",
+    "hq": "Malaysia"
 },
 {
-    "companyName": "",
+    "companyName": "FlightRadar24",
     "What Do They Do": "",
-    "whyCool":"",
-    "industry":"",
+    "whyCool":"Small company, kinda bootstrapped, ...",
+    "industry":"Tracking",
     "sustainability":"",
     "URL": "",
-    "img":"",
-    "hq": ""
+    "img":"flightradar.jpg",
+    "hq": "Sweden"
 },
 {
     "companyName": "",
