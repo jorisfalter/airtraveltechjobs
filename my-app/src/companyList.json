@@ -4,41 +4,109 @@
     "What Do They Do": "",
     "whyCool":"Probably one of the most efficient airlines in the world, maximising using tech to optimise their operations even more.",
     "industry":"Airline",
-    "coolness":"",
-    "sustainability":"",
-    "featured": 1,
+    "sustainability":1,
     "URL": "",
     "img":"klm.jpg",
     "hq": "Netherlands"
-
 },
 {
     "companyName": "Heart Aerospace",
     "What Do They Do": "",
     "whyCool":"They are building the electric flying future!",
     "industry":"Manufacturing",
-    "coolness":"",
-    "sustainability":"",
-    "featured": 0,
+    "sustainability":1,
     "URL": "",
     "img":"heart.png",
     "hq": "Sweden"
-
-
 },
 {
     "companyName": "Boom Supersonic",
     "What Do They Do": "",
     "whyCool":"They are building very fast planes!",
     "industry":"Manufacturing",
-    "coolness":"",
-    "sustainability":"",
-    "featured": 0,
+    "sustainability":0,
     "URL": "",
     "img":"boomsupersonic.jpg",
     "hq": "USA"
-
-
-
+},
+{
+    "companyName": "Pilatus",
+    "What Do They Do": "",
+    "whyCool":"They build small, fun aircraft",
+    "industry":"Manufacturing",
+    "sustainability":"",
+    "URL": "",
+    "img":"pilatus.jpg",
+    "hq": "Switzerland"
+},
+{
+    "companyName": "",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "URL": "",
+    "img":"",
+    "hq": ""
+},
+{
+    "companyName": "",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "URL": "",
+    "img":"",
+    "hq": ""
+},
+{
+    "companyName": "",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "URL": "",
+    "img":"",
+    "hq": ""
+},
+{
+    "companyName": "",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "URL": "",
+    "img":"",
+    "hq": ""
+},
+{
+    "companyName": "",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "URL": "",
+    "img":"",
+    "hq": ""
+},
+{
+    "companyName": "",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "URL": "",
+    "img":"",
+    "hq": ""
+},
+{
+    "companyName": "",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "URL": "",
+    "img":"",
+    "hq": ""
 }
 ]

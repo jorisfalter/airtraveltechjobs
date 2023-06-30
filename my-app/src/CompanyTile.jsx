@@ -39,8 +39,9 @@ function CompanyTile(props) {
           <img
             src={images[companyList[props.item].img]}
             className="bd-placeholder-img card-img-top"
-            width="100%"
-            height="225"
+            // width="100%"
+            // height="225"
+            height="100%"
           />
           <div className="centered">{companyList[props.item].companyName}</div>
         </div>
@@ -63,7 +64,7 @@ function CompanyTile(props) {
                 Edit
               </button>
             </div>
-            <small className="text-muted">9 mins</small>
+            <small className="text-muted">Something here?</small>
           </div>
         </div>
       </div>
