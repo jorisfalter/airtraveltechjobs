@@ -49,6 +49,7 @@ function App2() {
               <CompanyTile item="3" />
               <CompanyTile item="4" />
               <CompanyTile item="5" />
+              <CompanyTile item="6" />
             </div>
           </div>
         </div>
