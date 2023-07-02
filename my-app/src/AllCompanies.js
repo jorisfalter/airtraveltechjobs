@@ -50,6 +50,7 @@ function App2() {
               <CompanyTile item="4" />
               <CompanyTile item="5" />
               <CompanyTile item="6" />
+              <CompanyTile item="7" />
             </div>
           </div>
         </div>
