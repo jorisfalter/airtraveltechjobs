@@ -50,7 +50,7 @@ function CompanyTile(props) {
           <p className="why-cool-question">Why Is This a Cool Company?</p>
           <p className="card-text">{companyList[props.item].whyCool}</p>
           <div className="d-flex justify-content-between align-items-center">
-            <div className="btn-group">
+            {/* <div className="btn-group">
               <button
                 type="button"
                 className="btn btn-sm btn-outline-secondary"
@@ -63,7 +63,7 @@ function CompanyTile(props) {
               >
                 Edit
               </button>
-            </div>
+            </div> */}
             <small className="text-muted">Something here?</small>
           </div>
         </div>
