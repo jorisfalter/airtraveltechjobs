@@ -1,5 +1,6 @@
 .imageContainer{
   position: relative;
+  overflow:hidden;
 }
 
 .centered {
@@ -10,14 +11,24 @@
   opacity:0.8;
   background-color:white;
   border-radius:10px;
-  padding:5px 10px;
-  display:none;
+  /* display:none; */
+  white-space: nowrap;
+  width:0;
+  /* padding:0; */
+  overflow:hidden;
+  transition: width 0.5s ease;
+  /* transition: padding 0.5s ease; */
+  text-align:center;
+  padding:5px 0;
+
 }
 
 .imageContainer:hover .centered {
-  display:block;
-}
+  /* display:block; */
+  width:250px;
+  /* padding:5px 10px;  */
 
+}
 .why-cool-question{
   padding:0;
   color:green;
