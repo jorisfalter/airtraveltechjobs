@@ -16,9 +16,9 @@ function App2() {
               Your #1 Source for Software Engineering Jobs In Aviation
             </p>
             <p>
-              <i>
+              {/* <i>
                 Note to self: Add some cool background pic, ideally rotating
-              </i>
+              </i> */}
             </p>
           </div>
         </section>

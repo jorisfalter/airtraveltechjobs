@@ -5,7 +5,7 @@ function Footer() {
     <footer className="text-muted">
       <div className="container">
         <p className="float-right">
-          <a href="/">Back to top</a>
+          <a href="#">Back to top</a>
         </p>
         <p>Air Travel Tech Jobs</p>
       </div>

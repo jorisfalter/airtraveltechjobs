@@ -11,6 +11,11 @@
   background-color:white;
   border-radius:10px;
   padding:5px 10px;
+  display:none;
+}
+
+.imageContainer:hover .centered {
+  display:block;
 }
 
 .why-cool-question{
