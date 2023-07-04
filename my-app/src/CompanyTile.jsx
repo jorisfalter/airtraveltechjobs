@@ -64,7 +64,7 @@ function CompanyTile(props) {
                 Edit
               </button>
             </div> */}
-            <small className="text-muted">Something here?</small>
+            {/* <small className="text-muted">Something here?</small> */}
           </div>
         </div>
       </div>
