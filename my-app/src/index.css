@@ -4,6 +4,10 @@
   /* height: 100px; */
 }
 
+.card{
+  height: 400px;
+}
+
 .centered {
   position: absolute;
   top: 50%;
