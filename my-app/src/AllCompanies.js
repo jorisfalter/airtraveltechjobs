@@ -43,6 +43,8 @@ function App2() {
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">
             <div className="row">
+              {/* jsonArray.forEach((arraypiece, index) => {<CompanyTile item=index />}); */}
+
               <CompanyTile item="0" />
               <CompanyTile item="1" />
               <CompanyTile item="2" />
