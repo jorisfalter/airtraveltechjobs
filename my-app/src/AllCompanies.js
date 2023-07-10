@@ -2,8 +2,10 @@ import "./App.css";
 import NewHeader from "./NewHeader";
 import Footer from "./Footer";
 import CompanyTile from "./CompanyTile";
+// import companyList from "./companyList.json";
 
 function App2() {
+  // const companyArray = [0, 1, 2, 3, 4, 5, 6, 7, 8];
   return (
     <div>
       <NewHeader />
@@ -43,7 +45,9 @@ function App2() {
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">
             <div className="row">
-              {/* jsonArray.forEach((arraypiece, index) => {<CompanyTile item=index />}); */}
+              {/* {companyArray.forEach((arraypiece, index) => {
+                <CompanyTile item={arraypiece} />;
+              })} */}
 
               <CompanyTile item="0" />
               <CompanyTile item="1" />
