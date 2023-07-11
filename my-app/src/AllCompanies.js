@@ -5,7 +5,36 @@ import CompanyTile from "./CompanyTile";
 // import companyList from "./companyList.json";
 
 function App2() {
-  // const companyArray = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+  /////////////////// to make it random
+  for (var a = [], i = 0; i < 9; ++i) a[i] = i;
+
+  // http://stackoverflow.com/questions/962802#962890
+  function shuffle(array) {
+    var tmp,
+      current,
+      top = array.length;
+    if (top)
+      while (--top) {
+        current = Math.floor(Math.random() * (top + 1));
+        tmp = array[current];
+        array[current] = array[top];
+        array[top] = tmp;
+      }
+    return array;
+  }
+
+  a = shuffle(a);
+  const companyArray = a;
+  ///////////////////
+
+  const newArray = Array.from({ length: 9 }, () =>
+    Math.floor(Math.random() * 9)
+  );
+
+  const renderListOfNumbers = (numbers) => {
+    return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
+  };
+
   return (
     <div>
       <NewHeader />
@@ -45,11 +74,9 @@ function App2() {
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">
             <div className="row">
-              {/* {companyArray.forEach((arraypiece, index) => {
-                <CompanyTile item={arraypiece} />;
-              })} */}
+              {renderListOfNumbers(companyArray)}
 
-              <CompanyTile item="0" />
+              {/* <CompanyTile item="0" />
               <CompanyTile item="1" />
               <CompanyTile item="2" />
               <CompanyTile item="3" />
@@ -57,7 +84,7 @@ function App2() {
               <CompanyTile item="5" />
               <CompanyTile item="6" />
               <CompanyTile item="7" />
-              <CompanyTile item="8" />
+              <CompanyTile item="8" /> */}
             </div>
           </div>
         </div>
