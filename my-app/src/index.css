@@ -16,6 +16,8 @@ a:hover{
   color: rgba(255,255,255,.5) !important
 }
 
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -53,12 +55,12 @@ a:hover{
   margin-bottom: 0;
   background-color: #fff;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
   .jumbotron {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    /* padding-bottom: 6rem; */
   }
-}
+/* } */
 
 .jumbotron p:last-child {
   margin-bottom: 0;
