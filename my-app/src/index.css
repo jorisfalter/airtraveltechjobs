@@ -8,6 +8,10 @@
   height: 350px;
 }
 
+a:hover{
+  text-decoration:none;
+}
+
 .centered {
   position: absolute;
   top: 50%;
