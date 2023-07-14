@@ -12,6 +12,10 @@ a:hover{
   text-decoration:none;
 }
 
+.navbar-brand:hover{
+  color: rgba(255,255,255,.5) !important
+}
+
 .centered {
   position: absolute;
   top: 50%;
