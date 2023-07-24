@@ -49,6 +49,12 @@ a:hover{
   color:green;
 }
 
+.card-company-name{
+  font-size: 1em;
+  text-shadow:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #B2B1B9;
+}
+
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -61,6 +67,8 @@ a:hover{
     /* padding-bottom: 6rem; */
   }
 /* } */
+
+
 
 .jumbotron p:last-child {
   margin-bottom: 0;

@@ -47,7 +47,12 @@ function CompanyTile(props) {
         </div>
 
         <div className="card-body">
-          <p className="why-cool-question">Why Is This a Cool Company?</p>
+          {/* <p className="card-company-name">
+            {companyList[props.item].companyName}
+          </p> */}
+          <p className="why-cool-question">
+            Why Is {companyList[props.item].companyName} a Cool Company?
+          </p>
           <p className="card-text">{companyList[props.item].whyCool}</p>
           <div className="d-flex justify-content-between align-items-center">
             {/* <div className="btn-group">
