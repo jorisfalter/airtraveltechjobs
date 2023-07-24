@@ -43,7 +43,12 @@ function CompanyTile(props) {
             // height="225"
             height="100%"
           />
-          <div className="centered">{companyList[props.item].companyName}</div>
+          <div className="centered">
+            HQ: {companyList[props.item].hq}
+            <br></br>
+            Industry: {companyList[props.item].industry}
+          </div>
+          <div className="centered"></div>
         </div>
 
         <div className="card-body">
