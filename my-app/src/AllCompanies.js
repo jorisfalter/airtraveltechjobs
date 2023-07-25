@@ -70,6 +70,16 @@ function App2() {
           </div>
         </section> */}
 
+        {/* filters */}
+        <div className="filterbox">
+          <div className="row">
+            {/* <div className="col-md-3">Remote</div>
+            <div className="col-md-3">Location</div>
+            <div className="col-md-3">Industry</div>
+            <div className="col-md-3">Cool</div> */}
+          </div>
+        </div>
+
         {/* <!-- Companies --> */}
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">
