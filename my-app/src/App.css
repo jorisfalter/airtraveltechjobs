@@ -13,8 +13,13 @@
   
 }
 
+h1{
+  padding-bottom:60px;
+}
+
 .homepage-wrapper{
   max-width: 1100px;
+  padding-top:120px;
 }
 
 nav.navbar {

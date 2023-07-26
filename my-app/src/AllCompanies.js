@@ -71,14 +71,37 @@ function App2() {
         </section> */}
 
         {/* filters */}
-        <div className="filterbox">
+        {/* <div className="filterbox">
           <div className="row">
-            {/* <div className="col-md-3">Remote</div>
-            <div className="col-md-3">Location</div>
-            <div className="col-md-3">Industry</div>
-            <div className="col-md-3">Cool</div> */}
+            <div className="col-md-3">
+              <p className="filter-section-header">Remote</p>
+              <p>Remote</p>
+              <p>Hybrid</p>
+              <p>On-site</p>
+            </div>
+
+            <div className="col-md-3">
+              <p className="filter-section-header">Location</p>
+              <p>Europe</p>
+              <p>North America</p>
+              <p>South America</p>
+              <p>Asia Australia</p>
+              <p>Middle-East</p>
+            </div>
+            <div className="col-md-3">
+              <p className="filter-section-header">Industry</p>
+              <p>Manufacturing</p>
+              <p>Airline</p>
+              <p>Tracker</p>
+              <p></p>
+            </div>
+            <div className="col-md-3">
+              <p className="filter-section-header">Cool</p>
+              <p>Cool</p>
+              <p>Less Cool</p>
+            </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- Companies --> */}
         <div className="album py-5 bg-light ">

@@ -27,6 +27,11 @@ a:hover{
   border-radius: 20px;
 }
 
+.filter-section-header{
+  color:gray;
+  font-size:1.5rem;
+}
+
 .centered {
   position: absolute;
   top: 50%;
