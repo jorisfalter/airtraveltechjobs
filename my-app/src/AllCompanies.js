@@ -71,37 +71,36 @@ function App2() {
         </section> */}
 
         {/* filters */}
-        {/* <div className="filterbox">
+        <div className="filterbox">
           <div className="row">
             <div className="col-md-3">
               <p className="filter-section-header">Remote</p>
-              <p>Remote</p>
-              <p>Hybrid</p>
-              <p>On-site</p>
+              <p className="filter-section-category">Remote</p>
+              <p className="filter-section-category">Hybrid</p>
+              <p className="filter-section-category">On-site</p>
             </div>
 
             <div className="col-md-3">
               <p className="filter-section-header">Location</p>
-              <p>Europe</p>
-              <p>North America</p>
-              <p>South America</p>
-              <p>Asia Australia</p>
-              <p>Middle-East</p>
+              <p className="filter-section-category">Europe</p>
+              <p className="filter-section-category">North America</p>
+              <p className="filter-section-category">South America</p>
+              <p className="filter-section-category">Asia Australia</p>
+              <p className="filter-section-category">Middle-East</p>
             </div>
             <div className="col-md-3">
               <p className="filter-section-header">Industry</p>
-              <p>Manufacturing</p>
-              <p>Airline</p>
-              <p>Tracker</p>
-              <p></p>
+              <p className="filter-section-category">Manufacturing</p>
+              <p className="filter-section-category">Airline</p>
+              <p className="filter-section-category">Tracker</p>
             </div>
             <div className="col-md-3">
               <p className="filter-section-header">Cool</p>
-              <p>Cool</p>
-              <p>Less Cool</p>
+              <p className="filter-section-category">Cool</p>
+              <p className="filter-section-category">Less Cool</p>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* <!-- Companies --> */}
         <div className="album py-5 bg-light ">
