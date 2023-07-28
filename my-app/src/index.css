@@ -37,6 +37,16 @@ a:hover{
   margin-bottom:0.25rem;
 }
 
+.filters-ul{
+list-style:none;
+padding-left:0;
+}
+
+.filters-li{
+  margin-bottom:0.25rem;
+
+}
+
 .centered {
   position: absolute;
   top: 50%;

@@ -75,9 +75,26 @@ function App2() {
           <div className="row">
             <div className="col-md-3">
               <p className="filter-section-header">Remote</p>
-              <p className="filter-section-category">Remote</p>
-              <p className="filter-section-category">Hybrid</p>
-              <p className="filter-section-category">On-site</p>
+              <ul className="filters-ul">
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="isRemote"
+                >
+                  <p className="filters-li">Remote</p>
+                </li>
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="hybridRemote"
+                >
+                  <p className="filters-li">Hybrid</p>
+                </li>
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="notRemote"
+                >
+                  <p className="filters-li">On-site</p>
+                </li>
+              </ul>
             </div>
 
             <div className="col-md-3">
