@@ -2,6 +2,8 @@ import "./App.css";
 import NewHeader from "./NewHeader";
 import Footer from "./Footer";
 import CompanyTile from "./CompanyTile";
+import React, { useState } from "react";
+
 // import companyList from "./companyList.json";
 
 function App2() {
@@ -33,6 +35,13 @@ function App2() {
 
   const renderListOfNumbers = (numbers) => {
     return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
+  };
+
+  // handle the click on the li items in the filterbox
+  const [activeIndex, setActiveIndex] = useState(null); // State to track the active index
+
+  const handleClick = (index) => {
+    setActiveIndex(index); // Set the active index on click
   };
 
   return (
@@ -80,7 +89,13 @@ function App2() {
                   className="filter-section-category"
                   data-tag-slug="isRemote"
                 >
-                  <p className="filters-li">Remote</p>
+                  <p
+                    className="filters-li"
+                    // className={activeIndex === 1 ? "active" : ""}
+                    // onClick={() => handleClick(1)}
+                  >
+                    Remote
+                  </p>
                 </li>
                 <li
                   className="filter-section-category"

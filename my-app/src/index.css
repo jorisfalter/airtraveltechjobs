@@ -33,6 +33,11 @@ a:hover{
   padding-top:10px;
 }
 
+.filters-li:hover{
+  background-color: red;
+  color:white;
+}
+
 .filter-section-category{
   margin-bottom:0.25rem;
 }
