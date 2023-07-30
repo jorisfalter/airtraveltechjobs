@@ -38,10 +38,10 @@ function App2() {
   };
 
   // handle the click on the li items in the filterbox
-  const [activeIndex, setActiveIndex] = useState(null); // State to track the active index
+  const [isActive, setIsActive] = useState(false); // State to track the active index
 
-  const handleClick = (index) => {
-    setActiveIndex(index); // Set the active index on click
+  const handleClick = () => {
+    setIsActive(!isActive); // Toggle the active state on click
   };
 
   return (
@@ -90,9 +90,8 @@ function App2() {
                   data-tag-slug="isRemote"
                 >
                   <p
-                    className="filters-li"
-                    // className={activeIndex === 1 ? "active" : ""}
-                    // onClick={() => handleClick(1)}
+                    className={isActive ? "filters-li active" : "filters-li"}
+                    onClick={handleClick}
                   >
                     Remote
                   </p>
@@ -101,13 +100,23 @@ function App2() {
                   className="filter-section-category"
                   data-tag-slug="hybridRemote"
                 >
-                  <p className="filters-li">Hybrid</p>
+                  <p
+                    className={isActive ? "filters-li active" : "filters-li"}
+                    onClick={handleClick}
+                  >
+                    Hybrid
+                  </p>
                 </li>
                 <li
                   className="filter-section-category"
                   data-tag-slug="notRemote"
                 >
-                  <p className="filters-li">On-site</p>
+                  <p
+                    className={isActive ? "filters-li active" : "filters-li"}
+                    onClick={handleClick}
+                  >
+                    On-site
+                  </p>
                 </li>
               </ul>
             </div>
