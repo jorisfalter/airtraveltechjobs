@@ -38,10 +38,14 @@ function App2() {
   };
 
   // handle the click on the li items in the filterbox
-  const [isActive, setIsActive] = useState(false); // State to track the active index
+  const [activeIndices, setActiveIndices] = useState([]); // State to track active indices
 
-  const handleClick = () => {
-    setIsActive(!isActive); // Toggle the active state on click
+  const handleClick = (index) => {
+    if (activeIndices.includes(index)) {
+      setActiveIndices(activeIndices.filter((i) => i !== index)); // Remove index if already active
+    } else {
+      setActiveIndices([...activeIndices, index]); // Add index if not active
+    }
   };
 
   return (
@@ -91,11 +95,11 @@ function App2() {
                 >
                   <p
                     className={
-                      "filters-li activeIndices.includes((isRemote))"
-                        ? "filters-li active"
+                      activeIndices.includes("isRemote")
+                        ? "filters-li activeFilter"
                         : "filters-li"
                     }
-                    onClick={handleClick}
+                    onClick={() => handleClick("isRemote")}
                   >
                     Remote
                   </p>
@@ -106,11 +110,11 @@ function App2() {
                 >
                   <p
                     className={
-                      "filters-li activeIndices.includes((hybridRemote))"
-                        ? "filters-li active"
+                      activeIndices.includes("hybridRemote")
+                        ? "filters-li activeFilter"
                         : "filters-li"
                     }
-                    onClick={handleClick}
+                    onClick={() => handleClick("hybridRemote")}
                   >
                     Hybrid
                   </p>
@@ -121,11 +125,11 @@ function App2() {
                 >
                   <p
                     className={
-                      "filters-li activeIndices.includes((notRemote))"
-                        ? "filters-li active"
+                      activeIndices.includes("notRemote")
+                        ? "filters-li activeFilter"
                         : "filters-li"
                     }
-                    onClick={handleClick}
+                    onClick={() => handleClick("notRemote")}
                   >
                     On-site
                   </p>

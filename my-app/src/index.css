@@ -49,7 +49,11 @@ padding-left:0;
 
 .filters-li{
   margin-bottom:0.25rem;
+}
 
+.activeFilter{
+  background-color: blue;
+  color:white;
 }
 
 .centered {
