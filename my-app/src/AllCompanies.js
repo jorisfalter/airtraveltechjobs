@@ -90,7 +90,11 @@ function App2() {
                   data-tag-slug="isRemote"
                 >
                   <p
-                    className={isActive ? "filters-li active" : "filters-li"}
+                    className={
+                      "filters-li activeIndices.includes((isRemote))"
+                        ? "filters-li active"
+                        : "filters-li"
+                    }
                     onClick={handleClick}
                   >
                     Remote
@@ -101,7 +105,11 @@ function App2() {
                   data-tag-slug="hybridRemote"
                 >
                   <p
-                    className={isActive ? "filters-li active" : "filters-li"}
+                    className={
+                      "filters-li activeIndices.includes((hybridRemote))"
+                        ? "filters-li active"
+                        : "filters-li"
+                    }
                     onClick={handleClick}
                   >
                     Hybrid
@@ -112,7 +120,11 @@ function App2() {
                   data-tag-slug="notRemote"
                 >
                   <p
-                    className={isActive ? "filters-li active" : "filters-li"}
+                    className={
+                      "filters-li activeIndices.includes((notRemote))"
+                        ? "filters-li active"
+                        : "filters-li"
+                    }
                     onClick={handleClick}
                   >
                     On-site
