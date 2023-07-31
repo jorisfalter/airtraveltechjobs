@@ -2,12 +2,15 @@ import "./App.css";
 import NewHeader from "./NewHeader";
 import Footer from "./Footer";
 import CompanyTile from "./CompanyTile";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 // import companyList from "./companyList.json";
 
+var b = 0;
+
 function App2() {
   /////////////////// to make it random
+
   for (var a = [], i = 0; i < 9; ++i) a[i] = i;
 
   // http://stackoverflow.com/questions/962802#962890
@@ -24,9 +27,11 @@ function App2() {
       }
     return array;
   }
+  if (b === 0) {
+    b = shuffle(a);
+  }
 
-  a = shuffle(a);
-  const companyArray = a;
+  const companyArray = b;
   ///////////////////
 
   const newArray = Array.from({ length: 9 }, () =>
