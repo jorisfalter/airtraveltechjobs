@@ -3,6 +3,7 @@ import NewHeader from "./NewHeader";
 import Footer from "./Footer";
 import CompanyTile from "./CompanyTile";
 import React, { useState, useEffect } from "react";
+import companyList from "./companyList.json";
 
 // import companyList from "./companyList.json";
 
@@ -27,19 +28,32 @@ function App2() {
       }
     return array;
   }
+
+  // to avoid rerendering after initial load
   if (b === 0) {
     b = shuffle(a);
   }
-
   const companyArray = b;
-  ///////////////////
 
+  ///////////////////
   const newArray = Array.from({ length: 9 }, () =>
     Math.floor(Math.random() * 9)
   );
 
   const renderListOfNumbers = (numbers) => {
-    return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
+    // when no filters
+    if (activeIndices == "") {
+      return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
+    }
+
+    // when filters applied
+    else {
+      // this is what we have to replace with first something that matches all filters
+      // so I need to read the JSON
+      // but where do I read the JSON?
+      // see CompanyTile for examples
+      return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
+    }
   };
 
   // handle the click on the li items in the filterbox
@@ -89,6 +103,7 @@ function App2() {
         </section> */}
 
         {/* filters */}
+        {/* {activeIndices.join(", ")} */}
         <div className="filterbox">
           <div className="row">
             <div className="col-md-3">
