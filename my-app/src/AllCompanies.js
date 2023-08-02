@@ -40,6 +40,9 @@ function App2() {
     Math.floor(Math.random() * 9)
   );
 
+  // temporary testing fetching the data
+  var tempCompanyData = (tempCompanyData = companyList[0].remote);
+
   const renderListOfNumbers = (numbers) => {
     // when no filters
     if (activeIndices == "") {
@@ -48,10 +51,6 @@ function App2() {
 
     // when filters applied
     else {
-      // this is what we have to replace with first something that matches all filters
-      // so I need to read the JSON
-      // but where do I read the JSON?
-      // see CompanyTile for examples
       return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
     }
   };
@@ -85,7 +84,6 @@ function App2() {
             </p>
           </div>
         </section>
-
         {/* <!-- Filters --> */}
         {/* <section className="jumbotron text-center">
           <div className="container">
@@ -101,10 +99,11 @@ function App2() {
             </p>
           </div>
         </section> */}
-
         {/* filters */}
         {/* {activeIndices.join(", ")} */}
+
         <div className="filterbox">
+          {/* {tempCompanyData} */}
           <div className="row">
             <div className="col-md-3">
               <p className="filter-section-header">Remote</p>
@@ -178,7 +177,6 @@ function App2() {
             </div>
           </div>
         </div>
-
         {/* <!-- Companies --> */}
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">

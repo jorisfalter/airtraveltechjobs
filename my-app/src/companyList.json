@@ -8,7 +8,7 @@
     "URL": "",
     "img":"klm.jpg",
     "hq": "Netherlands",
-    "remote": "isRemote hybridRemote notRemote"
+    "remote": ["isRemote","hybridRemote", "notRemote"]
 },
 {
     "companyName": "Heart Aerospace",
