@@ -40,21 +40,6 @@ function App2() {
     Math.floor(Math.random() * 9)
   );
 
-  // temporary testing fetching the data
-  var tempCompanyData = (tempCompanyData = companyList[0].remote);
-
-  const renderListOfNumbers = (numbers) => {
-    // when no filters
-    if (activeIndices == "") {
-      return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
-    }
-
-    // when filters applied
-    else {
-      return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
-    }
-  };
-
   // handle the click on the li items in the filterbox
   const [activeIndices, setActiveIndices] = useState([]); // State to track active indices
 
@@ -63,6 +48,38 @@ function App2() {
       setActiveIndices(activeIndices.filter((i) => i !== index)); // Remove index if already active
     } else {
       setActiveIndices([...activeIndices, index]); // Add index if not active
+    }
+  };
+
+  // tempCompanyData is only the remote data from KLM
+  var tempCompanyData = companyList[0].remote;
+  console.log(tempCompanyData);
+  console.log(activeIndices);
+
+  // render the tiles
+  var matchingListOfFiltersForThisCompany = [];
+  const renderListOfNumbers = (numbers) => {
+    // when no filters
+    if (activeIndices == "") {
+      return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
+    }
+
+    // when filters applied
+    else {
+      for (var i = 0; i < activeIndices.length; ++i) {
+        for (var j = 0; j < tempCompanyData.length; j++) {
+          if (activeIndices[i] === tempCompanyData[j]) {
+            matchingListOfFiltersForThisCompany.push(activeIndices[i]);
+            console.log(
+              "this is the matching list for this company: " +
+                matchingListOfFiltersForThisCompany
+            );
+          }
+        }
+      }
+
+      // this is temp until I sort this out
+      return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
     }
   };
 
@@ -103,7 +120,7 @@ function App2() {
         {/* {activeIndices.join(", ")} */}
 
         <div className="filterbox">
-          {/* {tempCompanyData} */}
+          {tempCompanyData}
           <div className="row">
             <div className="col-md-3">
               <p className="filter-section-header">Remote</p>
