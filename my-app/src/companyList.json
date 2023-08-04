@@ -18,7 +18,8 @@
     "sustainability":1,
     "URL": "",
     "img":"heart.png",
-    "hq": "Sweden"
+    "hq": "Sweden",
+    "remote": ["isRemote"]
 },
 {
     "companyName": "Boom Supersonic",
@@ -28,7 +29,9 @@
     "sustainability":0,
     "URL": "",
     "img":"boomsupersonic.jpg",
-    "hq": "USA"
+    "hq": "USA",
+    "remote": ["nothing"]
+
 },
 {
     "companyName": "Pilatus",
@@ -38,7 +41,8 @@
     "sustainability":"",
     "URL": "",
     "img":"pilatus.jpg",
-    "hq": "Switzerland"
+    "hq": "Switzerland",
+    "remote": ["nothing"]
 },
 {
     "companyName": "AirAsia",
@@ -48,7 +52,8 @@
     "sustainability":"",
     "URL": "",
     "img":"airasia.jpeg",
-    "hq": "Malaysia"
+    "hq": "Malaysia",
+    "remote": ["nothing"]
 },
 {
     "companyName": "FlightRadar24",
@@ -58,7 +63,8 @@
     "sustainability":"",
     "URL": "",
     "img":"flightradar.jpg",
-    "hq": "Sweden"
+    "hq": "Sweden",
+    "remote": ["nothing"]
 },
 {
     "companyName": "Daedalean",
@@ -68,7 +74,8 @@
     "sustainability":"",
     "URL": "",
     "img":"daedalean.png",
-    "hq": "Switzerland"
+    "hq": "Switzerland",
+    "remote": ["nothing"]
 },
 {
     "companyName": "Pal-V",
@@ -78,7 +85,8 @@
     "sustainability":"No",
     "URL": "",
     "img":"palv.jpg",
-    "hq": "Netherlands"
+    "hq": "Netherlands",
+    "remote": ["nothing"]
 },
 {
     "companyName": "Joby",
@@ -88,7 +96,8 @@
     "sustainability":"No",
     "URL": "",
     "img":"joby.jpg",
-    "hq": "USA"
+    "hq": "USA",
+    "remote": ["nothing"]
 },
 {
     "companyName": "",
@@ -98,7 +107,8 @@
     "sustainability":"",
     "URL": "",
     "img":"",
-    "hq": ""
+    "hq": "",
+    "remote": ["nothing"]
 },
 {
     "companyName": "",
@@ -108,6 +118,7 @@
     "sustainability":"",
     "URL": "",
     "img":"",
-    "hq": ""
+    "hq": "",
+    "remote": ["nothing"]
 }
 ]

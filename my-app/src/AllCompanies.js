@@ -51,13 +51,24 @@ function App2() {
     }
   };
 
+  // fetch all the variables for each company
+  var companyVariables = [];
+  for (var i = 0; i < companyList.length; i++) {
+    companyVariables[i] = [
+      [companyList[i].companyName],
+      [companyList[i].remote],
+    ];
+  }
+  console.log(companyVariables);
+
   // tempCompanyData is only the remote data from KLM
   var tempCompanyData = companyList[0].remote;
-  console.log(tempCompanyData);
-  console.log(activeIndices);
+  console.log("hier log ik activeIndices: " + activeIndices);
 
   // render the tiles
   var matchingListOfFiltersForThisCompany = [];
+  var matchingListOfFiltersForAllCompanies = [];
+
   const renderListOfNumbers = (numbers) => {
     // when no filters
     if (activeIndices == "") {
@@ -66,17 +77,35 @@ function App2() {
 
     // when filters applied
     else {
-      for (var i = 0; i < activeIndices.length; ++i) {
-        for (var j = 0; j < tempCompanyData.length; j++) {
-          if (activeIndices[i] === tempCompanyData[j]) {
-            matchingListOfFiltersForThisCompany.push(activeIndices[i]);
-            console.log(
-              "this is the matching list for this company: " +
-                matchingListOfFiltersForThisCompany
-            );
+      // for (var i = 0; i < activeIndices.length; ++i) {
+      //   for (var j = 0; j < tempCompanyData.length; j++) {
+      //     if (activeIndices[i] === tempCompanyData[j]) {
+      //       matchingListOfFiltersForThisCompany.push(activeIndices[i]);
+      //       console.log(
+      //         "this is the matching list for this company: " +
+      //           matchingListOfFiltersForThisCompany
+      //       );
+      //     }
+      //   }
+      // }
+      // hier selecteren we een lijst van bedrijven
+      for (var h = 0; h < companyVariables.length; h++) {
+        // hier voegen we de bedrijfsnaam toe
+        matchingListOfFiltersForAllCompanies.push(companyVariables[h][0]);
+        for (var i = 0; i < activeIndices.length; i++) {
+          for (var j = 0; j < companyVariables[h][1].length; j++) {
+            console.log("companyVariable: " + companyVariables[h][1][0][j]);
+            if (activeIndices[i] === companyVariables[h][1][0][j]) {
+              console.log("we are getting here");
+              // matchingListOfFiltersForAllCompanies[h][1][j] = activeIndices[i];
+            }
           }
         }
       }
+      console.log(
+        "this is the matching list for this company: " +
+          matchingListOfFiltersForAllCompanies
+      );
 
       // this is temp until I sort this out
       return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
@@ -120,7 +149,7 @@ function App2() {
         {/* {activeIndices.join(", ")} */}
 
         <div className="filterbox">
-          {tempCompanyData}
+          {/* {tempCompanyData} */}
           <div className="row">
             <div className="col-md-3">
               <p className="filter-section-header">Remote</p>
