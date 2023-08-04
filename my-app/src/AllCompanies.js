@@ -63,7 +63,7 @@ function App2() {
 
   // tempCompanyData is only the remote data from KLM
   var tempCompanyData = companyList[0].remote;
-  console.log("hier log ik activeIndices: " + activeIndices);
+  // console.log("hier log ik activeIndices: " + activeIndices);
 
   // render the tiles
   var matchingListOfFiltersForThisCompany = [];
@@ -91,24 +91,60 @@ function App2() {
       // hier selecteren we een lijst van bedrijven
       for (var h = 0; h < companyVariables.length; h++) {
         // hier voegen we de bedrijfsnaam toe
-        matchingListOfFiltersForAllCompanies.push(companyVariables[h][0]);
+        matchingListOfFiltersForAllCompanies.push([
+          companyVariables[h][0],
+          ["placeholder"],
+        ]);
         for (var i = 0; i < activeIndices.length; i++) {
-          for (var j = 0; j < companyVariables[h][1].length; j++) {
-            console.log("companyVariable: " + companyVariables[h][1][0][j]);
+          for (var j = 0; j < companyVariables[h][1][0].length; j++) {
+            console.log("comp var: " + companyVariables[h][1]);
+            // console.log("companyVariable: " + companyVariables[h][1][0][j]);
             if (activeIndices[i] === companyVariables[h][1][0][j]) {
-              console.log("we are getting here");
-              // matchingListOfFiltersForAllCompanies[h][1][j] = activeIndices[i];
+              // console.log("we are getting here");
+              // console.log("with activeIndices: " + activeIndices[i]);
+              // console.log(
+              //   "And companyVariables: " + companyVariables[h][1][0][j]
+              // );
+              matchingListOfFiltersForAllCompanies[h][1].push(activeIndices[i]);
             }
           }
         }
       }
       console.log(
         "this is the matching list for this company: " +
-          matchingListOfFiltersForAllCompanies
+          matchingListOfFiltersForAllCompanies[0][1][2]
       );
 
+      // so now, the first bracket is the company, eg [0] is the klm array
+      // the second bracket is the company data array, with on position 0 the company name, and position 1 the data, so [0][0] is klm, [0][1] gives back an array
+      // the third bracket is the position in the array. Position 0 is "placeholder". Then it's depending on the filter chosen, eg [0][1][2] is the second filter clicked, eg isRemote
+
+      // now I need to
+      // 1) remove all elements where the second array length is 1 (because of "placeholder"), so matchingListOfFiltersForAllCompanies[0][1].length > 1
+      // I could give the index number, maybe it's useful to add the company name as well as a backup
+
+      var listWithoutNonMatchingCompanies = [];
+      var listWithoutNonMatchingCompaniesOnlyIndex = [];
+      for (var i = 0; i < matchingListOfFiltersForAllCompanies.length; i++) {
+        if (matchingListOfFiltersForAllCompanies[i][1].length > 1) {
+          listWithoutNonMatchingCompanies.push([
+            i,
+            matchingListOfFiltersForAllCompanies[i][0],
+            matchingListOfFiltersForAllCompanies[i][1].length - 1,
+          ]);
+          listWithoutNonMatchingCompaniesOnlyIndex.push(i);
+        }
+      }
+      console.log("filteredList: " + listWithoutNonMatchingCompanies[1]);
+
+      // 2) then I need to order them by length
+      // this means I need to change the sequence on listWithoutNonMatchingCompaniesOnlyIndex
+      // 3) Then I need to pass on the filters as well to display them, + a bonus when they match all filters
+
       // this is temp until I sort this out
-      return numbers.map((newNumber) => <CompanyTile item={newNumber} />);
+      return listWithoutNonMatchingCompaniesOnlyIndex.map((newNumber) => (
+        <CompanyTile item={newNumber} />
+      ));
     }
   };
 

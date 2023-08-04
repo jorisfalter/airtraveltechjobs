@@ -19,7 +19,8 @@
     "URL": "",
     "img":"heart.png",
     "hq": "Sweden",
-    "remote": ["isRemote"]
+    "remote": ["nothing"]
+
 },
 {
     "companyName": "Boom Supersonic",
@@ -30,7 +31,7 @@
     "URL": "",
     "img":"boomsupersonic.jpg",
     "hq": "USA",
-    "remote": ["nothing"]
+    "remote": ["isRemote"]
 
 },
 {
