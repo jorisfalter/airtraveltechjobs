@@ -33,10 +33,14 @@ a:hover{
   padding-top:10px;
 }
 
-.filters-li:hover{
-  background-color: red;
-  color:white;
+@media (min-width: 768px){
+  .filters-li:hover{
+    background-color: red;
+    color:white;
+  }
 }
+
+
 
 .filter-section-category{
   margin-bottom:0.25rem;
