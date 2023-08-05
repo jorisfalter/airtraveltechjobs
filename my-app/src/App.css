@@ -13,13 +13,24 @@
   
 }
 
-h1{
-  padding-bottom:60px;
+
+
+
+@media (min-width: 768px){
+  .homepage-wrapper{
+    padding-top:120px;
+  }
+}
+
+@media (max-width: 768px){
+  .homepage-wrapper{
+    padding-top:310px;
+  }
 }
 
 .homepage-wrapper{
   max-width: 1100px;
-  padding-top:120px;
+  /* padding-top:310px; */
 }
 
 nav.navbar {
