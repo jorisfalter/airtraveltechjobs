@@ -27,6 +27,11 @@ a:hover{
   border-radius: 20px;
 }
 
+.background-image-hero{
+  /* position: absolute; */
+  z-index:-1
+}
+
 .filter-section-header{
   color:gray;
   font-size:1.5rem;

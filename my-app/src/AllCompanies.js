@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import CompanyTile from "./CompanyTile";
 import React, { useState, useEffect } from "react";
 import companyList from "./companyList.json";
+import departingPlane from "./images/departingplane.jpeg";
 
 // import companyList from "./companyList.json";
 
@@ -153,7 +154,12 @@ function App2() {
       <NewHeader />
       <main role="main">
         {/* <!-- Welcome Message --> */}
-        <section className="jumbotron text-center">
+        <section
+          className="jumbotron text-center"
+          style={{
+            backgroundImage: "url(" + departingPlane + ")",
+          }}
+        >
           <div className="container">
             <h1>Air Travel Tech Jobs</h1>
             <p className="lead text-muted">
