@@ -8,7 +8,8 @@
     "URL": "",
     "img":"klm.jpg",
     "hq": "Netherlands",
-    "remote": ["isRemote","hybridRemote", "notRemote"]
+    "remote": ["isRemote","hybridRemote", "notRemote"],
+    "link": "https://careers.klm.com/go/Tech-&-Data/8548102/"
 },
 {
     "companyName": "Heart Aerospace",

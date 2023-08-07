@@ -18,7 +18,7 @@ function CompanyTile(props) {
 
   return (
     <div className="col-md-4">
-      <a href="http://google.com">
+      <a href={companyList[props.item].link} target="_blank">
         <div className="card mb-4 shadow-sm">
           {/* <svg
           className="bd-placeholder-img card-img-top"
@@ -80,6 +80,7 @@ function CompanyTile(props) {
           </div>
         </div>
       </a>
+      g
     </div>
   );
 }
