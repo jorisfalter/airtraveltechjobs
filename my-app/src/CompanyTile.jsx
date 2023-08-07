@@ -18,8 +18,9 @@ function CompanyTile(props) {
 
   return (
     <div className="col-md-4">
-      <div className="card mb-4 shadow-sm">
-        {/* <svg
+      <a href="http://google.com">
+        <div className="card mb-4 shadow-sm">
+          {/* <svg
           className="bd-placeholder-img card-img-top"
           width="100%"
           height="225"
@@ -35,32 +36,32 @@ function CompanyTile(props) {
             {companyList[props.item].companyName}
           </text>
         </svg> */}
-        <div className="imageContainer">
-          <img
-            src={images[companyList[props.item].img]}
-            className="bd-placeholder-img card-img-top"
-            // width="100%"
-            // height="225"
-            height="100%"
-          />
-          <div className="centered">
-            HQ: {companyList[props.item].hq}
-            <br></br>
-            Industry: {companyList[props.item].industry}
+          <div className="imageContainer">
+            <img
+              src={images[companyList[props.item].img]}
+              className="bd-placeholder-img card-img-top"
+              // width="100%"
+              // height="225"
+              height="100%"
+            />
+            <div className="centered">
+              HQ: {companyList[props.item].hq}
+              <br></br>
+              Industry: {companyList[props.item].industry}
+            </div>
+            <div className="centered"></div>
           </div>
-          <div className="centered"></div>
-        </div>
 
-        <div className="card-body">
-          {/* <p className="card-company-name">
+          <div className="card-body">
+            {/* <p className="card-company-name">
             {companyList[props.item].companyName}
           </p> */}
-          <p className="why-cool-question">
-            Why Is {companyList[props.item].companyName} a Cool Company?
-          </p>
-          <p className="card-text">{companyList[props.item].whyCool}</p>
-          <div className="d-flex justify-content-between align-items-center">
-            {/* <div className="btn-group">
+            <p className="why-cool-question">
+              Why Is {companyList[props.item].companyName} a Cool Company?
+            </p>
+            <p className="card-text">{companyList[props.item].whyCool}</p>
+            <div className="d-flex justify-content-between align-items-center">
+              {/* <div className="btn-group">
               <button
                 type="button"
                 className="btn btn-sm btn-outline-secondary"
@@ -74,10 +75,11 @@ function CompanyTile(props) {
                 Edit
               </button>
             </div> */}
-            {/* <small className="text-muted">Something here?</small> */}
+              {/* <small className="text-muted">Something here?</small> */}
+            </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
