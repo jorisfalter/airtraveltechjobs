@@ -80,7 +80,6 @@ function CompanyTile(props) {
           </div>
         </div>
       </a>
-      g
     </div>
   );
 }
