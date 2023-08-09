@@ -7,7 +7,7 @@
     "sustainability":1,
     "img":"klm.jpg",
     "hq": "Netherlands",
-    "hq-continent": "Europe",
+    "hqContinent": "Europe",
     "remote": ["nothing"],
     "link": "https://careers.klm.com/go/Tech-&-Data/8548102/"
 },
@@ -19,7 +19,7 @@
     "sustainability":1,
     "img":"heart.png",
     "hq": "Sweden",
-    "hq-continent": "Europe",
+    "hqContinent": "Europe",
     "remote": ["nothing"],
     "link":"https://heartaerospace.wpengine.com/"
 
@@ -32,7 +32,7 @@
     "sustainability":0,
     "img":"boomsupersonic.jpg",
     "hq": "USA",
-    "hq-continent": "North America",
+    "hqContinent": "North America",
     "remote": ["nothing"],
     "link":"https://boomsupersonic.com/careers"
 
@@ -45,7 +45,7 @@
     "sustainability":"",
     "img":"pilatus.jpg",
     "hq": "Switzerland",
-    "hq-continent": "Europe",
+    "hqContinent": "Europe",
     "remote": ["nothing"],
     "link":"https://www.pilatus-aircraft.com/en/career/jobs"
 },
@@ -57,7 +57,7 @@
     "sustainability":"",
     "img":"airasia.jpeg",
     "hq": "Malaysia",
-    "hq-continent": "Asia & Australia",
+    "hqContinent": "Asia & Australia",
     "remote": ["nothing"],
     "link":"https://mycareer.airasia.com/gb/en/c/digital-information-technology-jobs"
 },
@@ -69,7 +69,7 @@
     "sustainability":"",
     "img":"flightradar.jpg",
     "hq": "Sweden",
-    "hq-continent": "Europe",
+    "hqContinent": "Europe",
     "remote": ["nothing"],
     "link":"https://careers.flightradar24.com/jobs"
 },
@@ -81,7 +81,7 @@
     "sustainability":"",
     "img":"daedalean.png",
     "hq": "Switzerland",
-    "hq-continent": "Europe",
+    "hqContinent": "Europe",
     "remote": ["nothing"],
     "link":"https://daedalean.ai/company/careers"
 },
@@ -93,7 +93,7 @@
     "sustainability":"No",
     "img":"palv.jpg",
     "hq": "Netherlands",
-    "hq-continent": "Europe",
+    "hqContinent": "Europe",
     "remote": ["nothing"],
     "link":"https://www.pal-v.com/en/careers"
 },
@@ -105,7 +105,7 @@
     "sustainability":"No",
     "img":"joby.jpg",
     "hq": "USA",
-    "hq-continent": "North America",
+    "hqContinent": "North America",
     "remote": ["nothing"],
     "link":"https://www.jobyaviation.com/careers/"
 },
@@ -117,6 +117,7 @@
     "sustainability":"",
     "img":"",
     "hq": "",
+    "hqContinent",
     "remote": ["nothing"],
     "link":""
 },
@@ -128,6 +129,7 @@
     "sustainability":"",
     "img":"",
     "hq": "",
+    "hqContinent",
     "remote": ["nothing"],
     "link":""
 }

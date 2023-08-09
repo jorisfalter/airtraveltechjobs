@@ -57,7 +57,11 @@ function App2() {
   for (var i = 0; i < companyList.length; i++) {
     companyVariables[i] = [
       [companyList[i].companyName],
-      [companyList[i].remote],
+      [
+        companyList[i].remote,
+        companyList[i].hqContinent,
+        companyList[i].industry,
+      ],
     ];
   }
   console.log(companyVariables);
@@ -142,7 +146,6 @@ function App2() {
       // this means I need to change the sequence on listWithoutNonMatchingCompaniesOnlyIndex
       // 3) Then I need to pass on the filters as well to display them, + a bonus when they match all filters
 
-      // this is temp until I sort this out
       return listWithoutNonMatchingCompaniesOnlyIndex.map((newNumber) => (
         <CompanyTile item={newNumber} />
       ));
