@@ -5,11 +5,10 @@
     "whyCool":"Probably one of the most efficient airlines in the world, maximising using tech to optimise their operations even more.",
     "industry":"Airline",
     "sustainability":1,
-    "URL": "",
     "img":"klm.jpg",
     "hq": "Netherlands",
     "hq-continent": "Europe",
-    "remote": ["isRemote","hybridRemote", "notRemote"],
+    "remote": ["nothing"],
     "link": "https://careers.klm.com/go/Tech-&-Data/8548102/"
 },
 {
@@ -18,11 +17,11 @@
     "whyCool":"They are building the electric flying future!",
     "industry":"Manufacturing",
     "sustainability":1,
-    "URL": "",
     "img":"heart.png",
     "hq": "Sweden",
     "hq-continent": "Europe",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":"https://heartaerospace.wpengine.com/"
 
 },
 {
@@ -31,11 +30,11 @@
     "whyCool":"They are building very fast planes!",
     "industry":"Manufacturing",
     "sustainability":0,
-    "URL": "",
     "img":"boomsupersonic.jpg",
     "hq": "USA",
     "hq-continent": "North America",
-    "remote": ["isRemote"]
+    "remote": ["nothing"],
+    "link":"https://boomsupersonic.com/careers"
 
 },
 {
@@ -44,11 +43,11 @@
     "whyCool":"They build small, fun aircraft",
     "industry":"Manufacturing",
     "sustainability":"",
-    "URL": "",
     "img":"pilatus.jpg",
     "hq": "Switzerland",
     "hq-continent": "Europe",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":"https://www.pilatus-aircraft.com/en/career/jobs"
 },
 {
     "companyName": "AirAsia",
@@ -56,11 +55,11 @@
     "whyCool":"They have an uplifting vibe, motivated team, pretty big tech department, ...",
     "industry":"Airline",
     "sustainability":"",
-    "URL": "",
     "img":"airasia.jpeg",
     "hq": "Malaysia",
     "hq-continent": "Asia & Australia",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":"https://mycareer.airasia.com/gb/en/c/digital-information-technology-jobs"
 },
 {
     "companyName": "FlightRadar24",
@@ -68,11 +67,11 @@
     "whyCool":"Small company, kinda bootstrapped, ...",
     "industry":"Tracking",
     "sustainability":"",
-    "URL": "",
     "img":"flightradar.jpg",
     "hq": "Sweden",
     "hq-continent": "Europe",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":"https://careers.flightradar24.com/jobs"
 },
 {
     "companyName": "Daedalean",
@@ -80,11 +79,11 @@
     "whyCool":"Not autonomeous driving but autonomeous flying!",
     "industry":"Aircraft Supplier",
     "sustainability":"",
-    "URL": "",
     "img":"daedalean.png",
     "hq": "Switzerland",
     "hq-continent": "Europe",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":"https://daedalean.ai/company/careers"
 },
 {
     "companyName": "Pal-V",
@@ -92,11 +91,11 @@
     "whyCool":"World's First Flying Car",
     "industry":"Manufacturing",
     "sustainability":"No",
-    "URL": "",
     "img":"palv.jpg",
     "hq": "Netherlands",
     "hq-continent": "Europe",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":"https://www.pal-v.com/en/careers"
 },
 {
     "companyName": "Joby",
@@ -104,11 +103,11 @@
     "whyCool":"Drone taxis are the future!",
     "industry":"Manufacturing",
     "sustainability":"No",
-    "URL": "",
     "img":"joby.jpg",
     "hq": "USA",
     "hq-continent": "North America",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":"https://www.jobyaviation.com/careers/"
 },
 {
     "companyName": "",
@@ -116,10 +115,10 @@
     "whyCool":"",
     "industry":"",
     "sustainability":"",
-    "URL": "",
     "img":"",
     "hq": "",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":""
 },
 {
     "companyName": "",
@@ -127,9 +126,9 @@
     "whyCool":"",
     "industry":"",
     "sustainability":"",
-    "URL": "",
     "img":"",
     "hq": "",
-    "remote": ["nothing"]
+    "remote": ["nothing"],
+    "link":""
 }
 ]
