@@ -58,9 +58,9 @@ function App2() {
     companyVariables[i] = [
       [companyList[i].companyName],
       [
-        companyList[i].remote,
+        // companyList[i].remote,
         companyList[i].hqContinent,
-        companyList[i].industry,
+        // companyList[i].industry,
       ],
     ];
   }
@@ -251,22 +251,95 @@ function App2() {
 
             <div className="col-md-3">
               <p className="filter-section-header">TimeZone</p>
-              <p className="filter-section-category">Europe</p>
-              <p className="filter-section-category">North America</p>
-              <p className="filter-section-category">South America</p>
-              <p className="filter-section-category">Asia & Australia</p>
-              <p className="filter-section-category">Middle-East</p>
+              <ul className="filters-ul">
+                <li className="filter-section-category" data-tag-slug="Europe">
+                  <p
+                    className={
+                      activeIndices.includes("Europe")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("Europe")}
+                  >
+                    Europe
+                  </p>
+                </li>
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="North America"
+                >
+                  <p
+                    className={
+                      activeIndices.includes("North America")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("North America")}
+                  >
+                    North America
+                  </p>
+                </li>
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="South America"
+                >
+                  <p
+                    className={
+                      activeIndices.includes("South America")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("South America")}
+                  >
+                    South America
+                  </p>
+                </li>{" "}
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="Asia & Australia"
+                >
+                  <p
+                    className={
+                      activeIndices.includes("Asia & Australia")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("Asia & Australia")}
+                  >
+                    Asia & Australia
+                  </p>
+                </li>{" "}
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="Middle-East"
+                >
+                  <p
+                    className={
+                      activeIndices.includes("Middle-East")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("Middle-East")}
+                  >
+                    Middle-East
+                  </p>
+                </li>
+              </ul>
             </div>
             <div className="col-md-3">
               <p className="filter-section-header">Industry</p>
-              <p className="filter-section-category">Manufacturing</p>
-              <p className="filter-section-category">Airline</p>
-              <p className="filter-section-category">Tracker</p>
+              <ul className="filters-ul">
+                <p className="filter-section-category">Manufacturing</p>
+                <p className="filter-section-category">Airline</p>
+                <p className="filter-section-category">Tracker</p>
+              </ul>
             </div>
             <div className="col-md-3">
               <p className="filter-section-header">Cool</p>
-              <p className="filter-section-category">Cool</p>
-              <p className="filter-section-category">Less Cool</p>
+              <ul className="filters-ul">
+                <p className="filter-section-category">Cool</p>
+                <p className="filter-section-category">Less Cool</p>
+              </ul>
             </div>
           </div>
         </div>
