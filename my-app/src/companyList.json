@@ -8,6 +8,7 @@
     "URL": "",
     "img":"klm.jpg",
     "hq": "Netherlands",
+    "hq-continent": "Europe",
     "remote": ["isRemote","hybridRemote", "notRemote"],
     "link": "https://careers.klm.com/go/Tech-&-Data/8548102/"
 },
@@ -20,6 +21,7 @@
     "URL": "",
     "img":"heart.png",
     "hq": "Sweden",
+    "hq-continent": "Europe",
     "remote": ["nothing"]
 
 },
@@ -32,6 +34,7 @@
     "URL": "",
     "img":"boomsupersonic.jpg",
     "hq": "USA",
+    "hq-continent": "North America",
     "remote": ["isRemote"]
 
 },
@@ -44,6 +47,7 @@
     "URL": "",
     "img":"pilatus.jpg",
     "hq": "Switzerland",
+    "hq-continent": "Europe",
     "remote": ["nothing"]
 },
 {
@@ -55,6 +59,7 @@
     "URL": "",
     "img":"airasia.jpeg",
     "hq": "Malaysia",
+    "hq-continent": "Asia & Australia",
     "remote": ["nothing"]
 },
 {
@@ -66,6 +71,7 @@
     "URL": "",
     "img":"flightradar.jpg",
     "hq": "Sweden",
+    "hq-continent": "Europe",
     "remote": ["nothing"]
 },
 {
@@ -77,6 +83,7 @@
     "URL": "",
     "img":"daedalean.png",
     "hq": "Switzerland",
+    "hq-continent": "Europe",
     "remote": ["nothing"]
 },
 {
@@ -88,6 +95,7 @@
     "URL": "",
     "img":"palv.jpg",
     "hq": "Netherlands",
+    "hq-continent": "Europe",
     "remote": ["nothing"]
 },
 {
@@ -99,6 +107,7 @@
     "URL": "",
     "img":"joby.jpg",
     "hq": "USA",
+    "hq-continent": "North America",
     "remote": ["nothing"]
 },
 {

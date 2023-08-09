@@ -247,11 +247,11 @@ function App2() {
             </div>
 
             <div className="col-md-3">
-              <p className="filter-section-header">Location</p>
+              <p className="filter-section-header">TimeZone</p>
               <p className="filter-section-category">Europe</p>
               <p className="filter-section-category">North America</p>
               <p className="filter-section-category">South America</p>
-              <p className="filter-section-category">Asia Australia</p>
+              <p className="filter-section-category">Asia & Australia</p>
               <p className="filter-section-category">Middle-East</p>
             </div>
             <div className="col-md-3">
