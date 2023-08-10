@@ -58,9 +58,9 @@ function App2() {
     companyVariables[i] = [
       [companyList[i].companyName],
       [
-        // companyList[i].remote,
-        companyList[i].hqContinent,
-        // companyList[i].industry,
+        companyList[i].remote
+          .concat(companyList[i].hqContinent)
+          .concat(companyList[i].industry),
       ],
     ];
   }
