@@ -329,9 +329,45 @@ function App2() {
             <div className="col-md-3">
               <p className="filter-section-header">Industry</p>
               <ul className="filters-ul">
-                <p className="filter-section-category">Manufacturing</p>
-                <p className="filter-section-category">Airline</p>
-                <p className="filter-section-category">Tracker</p>
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="Manufacturing"
+                >
+                  <p
+                    className={
+                      activeIndices.includes("Manufacturing")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("Manufacturing")}
+                  >
+                    Manufacturing
+                  </p>
+                </li>
+                <li className="filter-section-category" data-tag-slug="Airline">
+                  <p
+                    className={
+                      activeIndices.includes("Airline")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("Airline")}
+                  >
+                    Airline
+                  </p>
+                </li>
+                <li className="filter-section-category" data-tag-slug="Tracker">
+                  <p
+                    className={
+                      activeIndices.includes("Tracker")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("Tracker")}
+                  >
+                    Tracker
+                  </p>
+                </li>
               </ul>
             </div>
             <div className="col-md-3">
