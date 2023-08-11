@@ -141,6 +141,13 @@ function App2() {
         }
       }
       console.log("filteredList: " + listWithoutNonMatchingCompanies[1]);
+      console.log(
+        "listWithoutNonMatchingCompanies: " + listWithoutNonMatchingCompanies
+      );
+      console.log(
+        "listWithoutNonMatchingCompaniesOnlyIndex: " +
+          listWithoutNonMatchingCompaniesOnlyIndex
+      );
 
       // 2) then I need to order them by length
       // this means I need to change the sequence on listWithoutNonMatchingCompaniesOnlyIndex
