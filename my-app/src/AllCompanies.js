@@ -102,7 +102,7 @@ function App2() {
         ]);
         for (var i = 0; i < activeIndices.length; i++) {
           for (var j = 0; j < companyVariables[h][1][0].length; j++) {
-            console.log("comp var: " + companyVariables[h][1]);
+            // console.log("comp var: " + companyVariables[h][1]);
             // console.log("companyVariable: " + companyVariables[h][1][0][j]);
             if (activeIndices[i] === companyVariables[h][1][0][j]) {
               // console.log("we are getting here");
@@ -115,10 +115,10 @@ function App2() {
           }
         }
       }
-      console.log(
-        "this is the matching list for this company: " +
-          matchingListOfFiltersForAllCompanies[0][1][2]
-      );
+      // console.log(
+      //   "this is the matching list for this company: " +
+      //     matchingListOfFiltersForAllCompanies[0][1][2]
+      // );
 
       // so now, the first bracket is the company, eg [0] is the klm array
       // the second bracket is the company data array, with on position 0 the company name, and position 1 the data, so [0][0] is klm, [0][1] gives back an array
@@ -140,7 +140,7 @@ function App2() {
           listWithoutNonMatchingCompaniesOnlyIndex.push(i);
         }
       }
-      console.log("filteredList: " + listWithoutNonMatchingCompanies[1]);
+      // console.log("filteredList: " + listWithoutNonMatchingCompanies[1]);
       console.log(
         "listWithoutNonMatchingCompanies: " + listWithoutNonMatchingCompanies
       );
