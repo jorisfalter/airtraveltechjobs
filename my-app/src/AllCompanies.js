@@ -212,7 +212,7 @@ function App2() {
                   className="filter-section-category"
                   data-tag-slug="isRemote"
                 >
-                  <p
+                  <span
                     className={
                       activeIndices.includes("isRemote")
                         ? "filters-li activeFilter"
@@ -221,13 +221,13 @@ function App2() {
                     onClick={() => handleClick("isRemote")}
                   >
                     Remote
-                  </p>
+                  </span>
                 </li>
                 <li
                   className="filter-section-category"
                   data-tag-slug="hybridRemote"
                 >
-                  <p
+                  <span
                     className={
                       activeIndices.includes("hybridRemote")
                         ? "filters-li activeFilter"
@@ -236,13 +236,13 @@ function App2() {
                     onClick={() => handleClick("hybridRemote")}
                   >
                     Hybrid
-                  </p>
+                  </span>
                 </li>
                 <li
                   className="filter-section-category"
                   data-tag-slug="notRemote"
                 >
-                  <p
+                  <span
                     className={
                       activeIndices.includes("notRemote")
                         ? "filters-li activeFilter"
@@ -251,7 +251,7 @@ function App2() {
                     onClick={() => handleClick("notRemote")}
                   >
                     On-site
-                  </p>
+                  </span>
                 </li>
               </ul>
             </div>
@@ -260,22 +260,22 @@ function App2() {
               <p className="filter-section-header">TimeZone</p>
               <ul className="filters-ul">
                 <li className="filter-section-category" data-tag-slug="Europe">
-                  <p
+                  <span
                     className={
                       activeIndices.includes("Europe")
-                        ? "filters-li activeFilter"
+                        ? "activeFilter filters-li"
                         : "filters-li"
                     }
                     onClick={() => handleClick("Europe")}
                   >
                     Europe
-                  </p>
+                  </span>
                 </li>
                 <li
                   className="filter-section-category"
                   data-tag-slug="North America"
                 >
-                  <p
+                  <span
                     className={
                       activeIndices.includes("North America")
                         ? "filters-li activeFilter"
@@ -284,13 +284,13 @@ function App2() {
                     onClick={() => handleClick("North America")}
                   >
                     North America
-                  </p>
+                  </span>
                 </li>
                 <li
                   className="filter-section-category"
                   data-tag-slug="South America"
                 >
-                  <p
+                  <span
                     className={
                       activeIndices.includes("South America")
                         ? "filters-li activeFilter"
@@ -299,13 +299,13 @@ function App2() {
                     onClick={() => handleClick("South America")}
                   >
                     South America
-                  </p>
+                  </span>
                 </li>{" "}
                 <li
                   className="filter-section-category"
                   data-tag-slug="Asia & Australia"
                 >
-                  <p
+                  <span
                     className={
                       activeIndices.includes("Asia & Australia")
                         ? "filters-li activeFilter"
@@ -314,13 +314,13 @@ function App2() {
                     onClick={() => handleClick("Asia & Australia")}
                   >
                     Asia & Australia
-                  </p>
+                  </span>
                 </li>{" "}
                 <li
                   className="filter-section-category"
                   data-tag-slug="Middle-East"
                 >
-                  <p
+                  <span
                     className={
                       activeIndices.includes("Middle-East")
                         ? "filters-li activeFilter"
@@ -329,7 +329,7 @@ function App2() {
                     onClick={() => handleClick("Middle-East")}
                   >
                     Middle-East
-                  </p>
+                  </span>
                 </li>
               </ul>
             </div>
@@ -340,7 +340,7 @@ function App2() {
                   className="filter-section-category"
                   data-tag-slug="Manufacturing"
                 >
-                  <p
+                  <span
                     className={
                       activeIndices.includes("Manufacturing")
                         ? "filters-li activeFilter"
@@ -349,10 +349,10 @@ function App2() {
                     onClick={() => handleClick("Manufacturing")}
                   >
                     Manufacturing
-                  </p>
+                  </span>
                 </li>
                 <li className="filter-section-category" data-tag-slug="Airline">
-                  <p
+                  <span
                     className={
                       activeIndices.includes("Airline")
                         ? "filters-li activeFilter"
@@ -361,10 +361,10 @@ function App2() {
                     onClick={() => handleClick("Airline")}
                   >
                     Airline
-                  </p>
+                  </span>
                 </li>
                 <li className="filter-section-category" data-tag-slug="Tracker">
-                  <p
+                  <span
                     className={
                       activeIndices.includes("Tracker")
                         ? "filters-li activeFilter"
@@ -373,15 +373,15 @@ function App2() {
                     onClick={() => handleClick("Tracker")}
                   >
                     Tracker
-                  </p>
+                  </span>
                 </li>
               </ul>
             </div>
             <div className="col-md-3">
               <p className="filter-section-header">Cool</p>
               <ul className="filters-ul">
-                <p className="filter-section-category">Cool</p>
-                <p className="filter-section-category">Less Cool</p>
+                {/* <span className="filter-section-category">Cool</span> */}
+                {/* <span className="filter-section-category">Less Cool</span> */}
               </ul>
             </div>
           </div>

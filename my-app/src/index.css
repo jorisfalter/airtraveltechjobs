@@ -19,7 +19,7 @@ a:hover{
 .filterbox{
   text-align: center;
   width: 75%;
-  background-color: yellow;
+  background-color: rgb(51, 216, 51);
   margin: auto;
   position: absolute;
   transform: translateY(-50%);
@@ -42,6 +42,7 @@ a:hover{
   .filters-li:hover{
     background-color: red;
     color:white;
+    cursor: pointer;
   }
 }
 
@@ -58,6 +59,7 @@ padding-left:0;
 
 .filters-li{
   margin-bottom:0.25rem;
+  padding: 1px 10px;
 }
 
 .activeFilter{
