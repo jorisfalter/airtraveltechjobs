@@ -257,7 +257,7 @@ function App2() {
             </div>
 
             <div className="col-md-3">
-              <p className="filter-section-header">TimeZone</p>
+              <p className="filter-section-header">Time Zone</p>
               <ul className="filters-ul">
                 <li className="filter-section-category" data-tag-slug="Europe">
                   <span
