@@ -153,6 +153,13 @@ function App2() {
       // this means I need to change the sequence on listWithoutNonMatchingCompaniesOnlyIndex
       // 3) Then I need to pass on the filters as well to display them, + a bonus when they match all filters
 
+      // listWithoutNonMatchingCompanies: 0,KLM,1,1,Heart Aerospace,1,3,Pilatus,1,5,FlightRadar24,1,6,Daedalean,1,7,Pal-V,1
+      // listWithoutNonMatchingCompaniesOnlyIndex: 0,1,3,5,6,7
+      // >> the second list is just the sequence of "true" items
+      // >> I need to update the second list, based on the first list
+      // I probably need to extract the amounts from the first list,
+      // I think chatgpt will know how to sort it best
+
       return listWithoutNonMatchingCompaniesOnlyIndex.map((newNumber) => (
         <CompanyTile item={newNumber} />
       ));
