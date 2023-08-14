@@ -149,20 +149,25 @@ function App2() {
           listWithoutNonMatchingCompaniesOnlyIndex
       );
 
-      // 2) then I need to order them by length
-      // this means I need to change the sequence on listWithoutNonMatchingCompaniesOnlyIndex
-      // 3) Then I need to pass on the filters as well to display them, + a bonus when they match all filters
+      const sortedBrands = listWithoutNonMatchingCompanies.sort(
+        (a, b) => b[2] - a[2]
+      );
 
-      // listWithoutNonMatchingCompanies: 0,KLM,1,1,Heart Aerospace,1,3,Pilatus,1,5,FlightRadar24,1,6,Daedalean,1,7,Pal-V,1
-      // listWithoutNonMatchingCompaniesOnlyIndex: 0,1,3,5,6,7
-      // >> the second list is just the sequence of "true" items
-      // >> I need to update the second list, based on the first list
-      // I probably need to extract the amounts from the first list,
-      // I think chatgpt will know how to sort it best
+      console.log("sortedBrands: " + sortedBrands);
 
-      return listWithoutNonMatchingCompaniesOnlyIndex.map((newNumber) => (
+      let sortedBrandsOnlyIndex = [];
+
+      for (let i = 0; i < sortedBrands.length - 1; i++) {
+        sortedBrandsOnlyIndex.push(sortedBrands[i][0]);
+      }
+
+      console.log("sortedBrandsOnlyIndex: " + sortedBrandsOnlyIndex);
+
+      return sortedBrandsOnlyIndex.map((newNumber) => (
         <CompanyTile item={newNumber} />
       ));
+
+      // 3) Then I need to pass on the filters as well to display them, + a bonus when they match all filters
     }
   };
 
@@ -380,6 +385,21 @@ function App2() {
                     onClick={() => handleClick("Tracker")}
                   >
                     Tracker
+                  </span>
+                </li>
+                <li
+                  className="filter-section-category"
+                  data-tag-slug="Aircraft Supplier"
+                >
+                  <span
+                    className={
+                      activeIndices.includes("Aircraft Supplier")
+                        ? "filters-li activeFilter"
+                        : "filters-li"
+                    }
+                    onClick={() => handleClick("Aircraft Supplier")}
+                  >
+                    Aircraft Supplier
                   </span>
                 </li>
               </ul>
