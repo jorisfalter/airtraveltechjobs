@@ -157,7 +157,10 @@ function App2() {
 
       let sortedBrandsOnlyIndex = [];
 
-      for (let i = 0; i < sortedBrands.length - 1; i++) {
+      // this should be "length - 1"
+      // but then the last item is missing
+      // and it works when using "length"
+      for (let i = 0; i < sortedBrands.length; i++) {
         sortedBrandsOnlyIndex.push(sortedBrands[i][0]);
       }
 
