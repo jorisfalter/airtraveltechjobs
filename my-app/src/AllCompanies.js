@@ -220,7 +220,7 @@ function App2() {
         <div className="filterbox">
           {/* {tempCompanyData} */}
           <div className="row">
-            <div className="col-md-3">
+            {/* <div className="col-md-3">
               <p className="filter-section-header">Remote</p>
               <ul className="filters-ul">
                 <li
@@ -269,9 +269,9 @@ function App2() {
                   </span>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
-            <div className="col-md-3">
+            <div className="col-md-6">
               <p className="filter-section-header">Time Zone</p>
               <ul className="filters-ul">
                 <li className="filter-section-category" data-tag-slug="Europe">
@@ -301,7 +301,7 @@ function App2() {
                     North America
                   </span>
                 </li>
-                <li
+                {/* <li
                   className="filter-section-category"
                   data-tag-slug="South America"
                 >
@@ -315,7 +315,7 @@ function App2() {
                   >
                     South America
                   </span>
-                </li>{" "}
+                </li>{" "} */}
                 <li
                   className="filter-section-category"
                   data-tag-slug="Asia & Australia"
@@ -331,7 +331,7 @@ function App2() {
                     Asia & Australia
                   </span>
                 </li>{" "}
-                <li
+                {/* <li
                   className="filter-section-category"
                   data-tag-slug="Middle-East"
                 >
@@ -345,10 +345,10 @@ function App2() {
                   >
                     Middle-East
                   </span>
-                </li>
+                </li> */}
               </ul>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6">
               <p className="filter-section-header">Industry</p>
               <ul className="filters-ul">
                 <li
@@ -407,15 +407,16 @@ function App2() {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3">
+            {/* <div className="col-md-3">
               <p className="filter-section-header">Cool</p>
               <ul className="filters-ul">
-                {/* <span className="filter-section-category">Cool</span> */}
-                {/* <span className="filter-section-category">Less Cool</span> */}
+                <span className="filter-section-category">Cool</span>
+                <span className="filter-section-category">Less Cool</span>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
+
         {/* <!-- Companies --> */}
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">
