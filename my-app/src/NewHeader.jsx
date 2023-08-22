@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NewHeader() {
   return (
     <header>
       <nav class="navbar navbar-expand navbar-dark bg-dark ">
         <div class="navbar-left">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             Air Travel Tech Jobs
           </a>
         </div>
@@ -17,14 +18,14 @@ function NewHeader() {
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active"></li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/About">
                 About
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/Fun">
                 Fun
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

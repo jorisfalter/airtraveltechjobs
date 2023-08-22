@@ -5,10 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App2 from "./AllCompanies";
+import Fun from "./Fun";
+import About from "./About";
 
 // export default function App() {
 //   return (
@@ -35,7 +36,9 @@ root.render(
       {/* <App /> */}
       <Routes>
         <Route path="/" element={<App2 />} />
-        <Route path="/AllCompanies" element={<App2 />} />
+        {/* <Route path="/AllCompanies" element={<App2 />} /> */}
+        <Route path="/Fun" element={<Fun />} />
+        <Route path="/About" element={<About />} />
       </Routes>
     </BrowserRouter>
     ,

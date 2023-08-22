@@ -192,30 +192,8 @@ function App2() {
             <p className="lead text-muted">
               Your #1 Source for Software Engineering Jobs In Aviation
             </p>
-            <p>
-              {/* <i>
-                Note to self: Add some cool background pic, ideally rotating
-              </i> */}
-            </p>
           </div>
         </section>
-        {/* <!-- Filters --> */}
-        {/* <section className="jumbotron text-center">
-          <div className="container">
-            <h1>Filters</h1>
-            Industry
-            <p>
-              <a href="/" className="btn btn-primary my-2">
-                Manufacturing
-              </a>
-              <a href="/" className="btn btn-secondary my-2">
-                OTA
-              </a>
-            </p>
-          </div>
-        </section> */}
-        {/* filters */}
-        {/* {activeIndices.join(", ")} */}
 
         <div className="filterbox">
           {/* {tempCompanyData} */}
