@@ -45,9 +45,9 @@ function CompanyTile(props) {
               height="100%"
             />
             <div className="centered">
-              HQ: {companyList[props.item].hq}
+              <b>HQ:</b> {companyList[props.item].hq}
               <br></br>
-              Industry: {companyList[props.item].industry}
+              <b>Industry:</b> {companyList[props.item].industry}
             </div>
             <div className="centered"></div>
           </div>

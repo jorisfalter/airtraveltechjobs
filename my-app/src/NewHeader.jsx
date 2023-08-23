@@ -27,6 +27,11 @@ function NewHeader() {
                 Fun
               </Link>
             </li>
+            <li class="nav-item">
+              <Link class="nav-link" to="/">
+                Apply
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
