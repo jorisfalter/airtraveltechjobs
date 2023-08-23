@@ -21,7 +21,13 @@ a:hover{
   /* width: 75%; /* for four filters */ 
   width: 37.5%;
 
-  background-color: rgb(83, 242, 83);
+  /* background-color: rgb(83, 242, 83); */
+  background: rgba(0,0,0,0);
+  border-color: black;
+  border-style: solid;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+
+
   margin: auto;
   position: absolute;
   transform: translateY(-50%);
@@ -40,6 +46,7 @@ a:hover{
   font-size:1rem;
   padding-top:10px;
   margin-bottom: 6px;
+  font-weight:bold
 }
 
 @media (min-width: 768px){
