@@ -16,21 +16,24 @@ a:hover{
   color: rgba(255,255,255,.5) !important
 }
 
+.album{
+  padding-top:10px !important;
+}
+
 .filterbox{
   text-align: center;
   /* width: 75%; /* for four filters */ 
   width: 37.5%;
 
   /* background-color: rgb(83, 242, 83); */
-  background: rgba(0,0,0,0);
+  background: rgba(255, 255, 255, 0.3);
   border-color: black;
   border-style: solid;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
 
-
-  margin: auto;
-  position: absolute;
-  transform: translateY(-50%);
+  margin: 40px auto 10px;
+  /* position: absolute; */
+  /* transform: translateY(-50%); */
   /* left: 12.5%; /* for four filters */ 
   left: 31.25%;
   border-radius: 20px;
@@ -124,7 +127,7 @@ padding-left:0;
 }
 @media (min-width: 768px) {
   .jumbotron {
-    padding-bottom: 120px; 
+    padding-bottom: 10px; 
   }
 }
 

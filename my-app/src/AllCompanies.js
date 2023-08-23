@@ -193,12 +193,12 @@ function App2() {
               Your #1 Source for Software Engineering Jobs In Aviation
             </p>
           </div>
-        </section>
+          {/* </section> */}
 
-        <div className="filterbox">
-          {/* {tempCompanyData} */}
-          <div className="row">
-            {/* <div className="col-md-3">
+          <div className="filterbox">
+            {/* {tempCompanyData} */}
+            <div className="row">
+              {/* <div className="col-md-3">
               <p className="filter-section-header">Remote</p>
               <ul className="filters-ul">
                 <li
@@ -249,37 +249,40 @@ function App2() {
               </ul>
             </div> */}
 
-            <div className="col-md-6">
-              <p className="filter-section-header">Time Zone</p>
-              <ul className="filters-ul">
-                <li className="filter-section-category" data-tag-slug="Europe">
-                  <span
-                    className={
-                      activeIndices.includes("Europe")
-                        ? "activeFilter filters-li"
-                        : "filters-li"
-                    }
-                    onClick={() => handleClick("Europe")}
+              <div className="col-md-6">
+                <p className="filter-section-header">Time Zone</p>
+                <ul className="filters-ul">
+                  <li
+                    className="filter-section-category"
+                    data-tag-slug="Europe"
                   >
-                    Europe
-                  </span>
-                </li>
-                <li
-                  className="filter-section-category"
-                  data-tag-slug="North America"
-                >
-                  <span
-                    className={
-                      activeIndices.includes("North America")
-                        ? "filters-li activeFilter"
-                        : "filters-li"
-                    }
-                    onClick={() => handleClick("North America")}
+                    <span
+                      className={
+                        activeIndices.includes("Europe")
+                          ? "activeFilter filters-li"
+                          : "filters-li"
+                      }
+                      onClick={() => handleClick("Europe")}
+                    >
+                      Europe
+                    </span>
+                  </li>
+                  <li
+                    className="filter-section-category"
+                    data-tag-slug="North America"
                   >
-                    North America
-                  </span>
-                </li>
-                {/* <li
+                    <span
+                      className={
+                        activeIndices.includes("North America")
+                          ? "filters-li activeFilter"
+                          : "filters-li"
+                      }
+                      onClick={() => handleClick("North America")}
+                    >
+                      North America
+                    </span>
+                  </li>
+                  {/* <li
                   className="filter-section-category"
                   data-tag-slug="South America"
                 >
@@ -294,22 +297,22 @@ function App2() {
                     South America
                   </span>
                 </li>{" "} */}
-                <li
-                  className="filter-section-category"
-                  data-tag-slug="Asia & Australia"
-                >
-                  <span
-                    className={
-                      activeIndices.includes("Asia & Australia")
-                        ? "filters-li activeFilter"
-                        : "filters-li"
-                    }
-                    onClick={() => handleClick("Asia & Australia")}
+                  <li
+                    className="filter-section-category"
+                    data-tag-slug="Asia & Australia"
                   >
-                    Asia & Australia
-                  </span>
-                </li>{" "}
-                {/* <li
+                    <span
+                      className={
+                        activeIndices.includes("Asia & Australia")
+                          ? "filters-li activeFilter"
+                          : "filters-li"
+                      }
+                      onClick={() => handleClick("Asia & Australia")}
+                    >
+                      Asia & Australia
+                    </span>
+                  </li>{" "}
+                  {/* <li
                   className="filter-section-category"
                   data-tag-slug="Middle-East"
                 >
@@ -324,93 +327,88 @@ function App2() {
                     Middle-East
                   </span>
                 </li> */}
-              </ul>
-            </div>
-            <div className="col-md-6">
-              <p className="filter-section-header">Industry</p>
-              <ul className="filters-ul">
-                <li
-                  className="filter-section-category"
-                  data-tag-slug="Manufacturing"
-                >
-                  <span
-                    className={
-                      activeIndices.includes("Manufacturing")
-                        ? "filters-li activeFilter"
-                        : "filters-li"
-                    }
-                    onClick={() => handleClick("Manufacturing")}
+                </ul>
+              </div>
+              <div className="col-md-6">
+                <p className="filter-section-header">Industry</p>
+                <ul className="filters-ul">
+                  <li
+                    className="filter-section-category"
+                    data-tag-slug="Manufacturing"
                   >
-                    Manufacturing
-                  </span>
-                </li>
-                <li className="filter-section-category" data-tag-slug="Airline">
-                  <span
-                    className={
-                      activeIndices.includes("Airline")
-                        ? "filters-li activeFilter"
-                        : "filters-li"
-                    }
-                    onClick={() => handleClick("Airline")}
+                    <span
+                      className={
+                        activeIndices.includes("Manufacturing")
+                          ? "filters-li activeFilter"
+                          : "filters-li"
+                      }
+                      onClick={() => handleClick("Manufacturing")}
+                    >
+                      Manufacturing
+                    </span>
+                  </li>
+                  <li
+                    className="filter-section-category"
+                    data-tag-slug="Airline"
                   >
-                    Airline
-                  </span>
-                </li>
-                <li className="filter-section-category" data-tag-slug="Tracker">
-                  <span
-                    className={
-                      activeIndices.includes("Tracker")
-                        ? "filters-li activeFilter"
-                        : "filters-li"
-                    }
-                    onClick={() => handleClick("Tracker")}
+                    <span
+                      className={
+                        activeIndices.includes("Airline")
+                          ? "filters-li activeFilter"
+                          : "filters-li"
+                      }
+                      onClick={() => handleClick("Airline")}
+                    >
+                      Airline
+                    </span>
+                  </li>
+                  <li
+                    className="filter-section-category"
+                    data-tag-slug="Tracker"
                   >
-                    Tracker
-                  </span>
-                </li>
-                <li
-                  className="filter-section-category"
-                  data-tag-slug="Aircraft Supplier"
-                >
-                  <span
-                    className={
-                      activeIndices.includes("Aircraft Supplier")
-                        ? "filters-li activeFilter"
-                        : "filters-li"
-                    }
-                    onClick={() => handleClick("Aircraft Supplier")}
+                    <span
+                      className={
+                        activeIndices.includes("Tracker")
+                          ? "filters-li activeFilter"
+                          : "filters-li"
+                      }
+                      onClick={() => handleClick("Tracker")}
+                    >
+                      Tracker
+                    </span>
+                  </li>
+                  <li
+                    className="filter-section-category"
+                    data-tag-slug="Aircraft Supplier"
                   >
-                    Aircraft Supplier
-                  </span>
-                </li>
-              </ul>
-            </div>
-            {/* <div className="col-md-3">
+                    <span
+                      className={
+                        activeIndices.includes("Aircraft Supplier")
+                          ? "filters-li activeFilter"
+                          : "filters-li"
+                      }
+                      onClick={() => handleClick("Aircraft Supplier")}
+                    >
+                      Aircraft Supplier
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              {/* <div className="col-md-3">
               <p className="filter-section-header">Cool</p>
               <ul className="filters-ul">
                 <span className="filter-section-category">Cool</span>
                 <span className="filter-section-category">Less Cool</span>
               </ul>
             </div> */}
+            </div>
           </div>
-        </div>
+        </section>
 
         {/* <!-- Companies --> */}
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">
-            <div className="row">
-              {renderListOfNumbers(companyArray)}
-
-              {/* <CompanyTile item="0" />
-              <CompanyTile item="1" />
-              <CompanyTile item="2" />
-              <CompanyTile item="3" />
-              <CompanyTile item="4" />
-              <CompanyTile item="5" />
-              <CompanyTile item="6" />
-              <CompanyTile item="7" />
-              <CompanyTile item="8" /> */}
-            </div>
+            <div className="row">{renderListOfNumbers(companyArray)}</div>
           </div>
         </div>
       </main>
