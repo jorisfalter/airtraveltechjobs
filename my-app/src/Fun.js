@@ -15,7 +15,6 @@ function Fun() {
           style={{
             backgroundImage: "url(" + departingPlane + ")",
             backgroundPosition: "center",
-            backgroundSize: "100%",
           }}
         >
           <div className="container">
