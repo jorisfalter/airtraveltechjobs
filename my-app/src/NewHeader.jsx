@@ -29,7 +29,7 @@ function NewHeader() {
             </li>
             <li class="nav-item">
               <Link class="nav-link" to="/">
-                Apply
+                <i>Submit</i>
               </Link>
             </li>
           </ul>

@@ -124,16 +124,20 @@ padding-left:0;
   background-color: #fff;
   padding-top: 6rem;
 
+
+
 }
 @media (min-width: 768px) {
   .jumbotron {
     padding-bottom: 10px; 
+    background-size: 100%;
+
   }
 }
 
 @media (max-width: 768px) {
   .jumbotron {
-    padding-bottom: 320px; 
+    /* padding-bottom: 320px;  */
   }
 }
 

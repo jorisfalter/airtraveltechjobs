@@ -185,7 +185,7 @@ function App2() {
           style={{
             backgroundImage: "url(" + departingPlane + ")",
             backgroundPosition: "center",
-            backgroundSize: "100%",
+            // backgroundSize: "100%",
           }}
         >
           <div className="container">
