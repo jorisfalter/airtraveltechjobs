@@ -9,11 +9,12 @@ import departingPlane from "./images/departingplane.jpeg";
 // import companyList from "./companyList.json";
 
 var b = 0;
+var amountOfCompanies = 10;
 
 function App2() {
   /////////////////// to make it random
 
-  for (var a = [], i = 0; i < 9; ++i) a[i] = i;
+  for (var a = [], i = 0; i < amountOfCompanies; ++i) a[i] = i;
 
   // http://stackoverflow.com/questions/962802#962890
   function shuffle(array) {
@@ -37,9 +38,9 @@ function App2() {
   const companyArray = b;
 
   ///////////////////
-  const newArray = Array.from({ length: 9 }, () =>
-    Math.floor(Math.random() * 9)
-  );
+  // const newArray = Array.from({ length: amountOfCompanies }, () =>
+  //   Math.floor(Math.random() * amountOfCompanies)
+  // );
 
   // handle the click on the li items in the filterbox
   const [activeIndices, setActiveIndices] = useState([]); // State to track active indices

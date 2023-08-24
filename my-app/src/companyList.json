@@ -2,7 +2,7 @@
 {
     "companyName": "KLM", 
     "What Do They Do": "",
-    "whyCool":"Probably one of the most efficient airlines in the world, maximising using tech to optimise their operations even more.",
+    "whyCool":"Probably one of the most efficient airlines in the world, investing heavily in tech",
     "industry":"Airline",
     "sustainability":1,
     "img":"klm.jpg",
@@ -40,7 +40,7 @@
 {
     "companyName": "Pilatus",
     "What Do They Do": "",
-    "whyCool":"They build small, fun aircraft",
+    "whyCool":"They build small, fun aircraft, they're located in the middle of the Swiss alps, and their premises were used in a James Bond movie",
     "industry":"Manufacturing",
     "sustainability":"",
     "img":"pilatus.jpg",
@@ -52,7 +52,7 @@
 {
     "companyName": "AirAsia",
     "What Do They Do": "",
-    "whyCool":"They have an uplifting vibe, motivated team, pretty big tech department, ...",
+    "whyCool":"They have an uplifting vibe and motivated team, they are very big on tech, ...",
     "industry":"Airline",
     "sustainability":"",
     "img":"airasia.jpeg",
@@ -64,7 +64,7 @@
 {
     "companyName": "FlightRadar24",
     "What Do They Do": "",
-    "whyCool":"Small company, kinda bootstrapped, ...",
+    "whyCool":"Small company, kinda bootstrapped, a plane-geek's favo app, ...",
     "industry":"Tracker",
     "sustainability":"",
     "img":"flightradar.jpg",
@@ -108,6 +108,42 @@
     "hqContinent": ["North America"],
     "remote": ["nothing"],
     "link":"https://www.jobyaviation.com/careers/"
+},
+{
+    "companyName": "Regent",
+    "What Do They Do": "Coastal Travel. 100% Electric.",
+    "whyCool":"Their plane looks amazing!",
+    "industry":"Manufacturing",
+    "sustainability":"",
+    "img":"regent.png",
+    "hq": "USA",
+    "hqContinent":["North America"],
+    "remote": ["onsite"],
+    "link":"https://www.regentcraft.com/careers"
+},
+{
+    "companyName": "Vertical Aerospace",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "img":"",
+    "hq": "",
+    "hqContinent":["nothing"],
+    "remote": ["nothing"],
+    "link":""
+},
+{
+    "companyName": "",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"",
+    "sustainability":"",
+    "img":"",
+    "hq": "",
+    "hqContinent":["nothing"],
+    "remote": ["nothing"],
+    "link":""
 },
 {
     "companyName": "",
