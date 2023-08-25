@@ -5,6 +5,7 @@ import React from "react";
 import departingPlane from "./images/departingplane.jpeg";
 import randomAirportPic from "./images/randomairport.png";
 import flightsforflaneursPic from "./images/flightsforflaneurs.png";
+import flightradarguesstheairportPic from "./images/flightradarguesstheairportPic.png";
 
 function About() {
   return (
@@ -108,6 +109,37 @@ function About() {
                 </a>{" "}
                 allows you to find all possible destinations based on when you
                 want to fly.
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-5">
+                <a
+                  href={
+                    "https://twitter.com/hashtag/FR24quiz?src=hashtag_click&f=live"
+                  }
+                  target="_blank"
+                >
+                  <div className="card card-sm mb-4 shadow-sm">
+                    {" "}
+                    <div className="imageContainer">
+                      <img
+                        src={flightradarguesstheairportPic}
+                        className="bd-placeholder-img card-img-top"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-md-7">
+                From time to time FlightRadar24 plays{" "}
+                <a
+                  href={
+                    "https://twitter.com/hashtag/FR24quiz?src=hashtag_click&f=live"
+                  }
+                >
+                  guess the Airport on Twitter
+                </a>
+                .{" "}
               </div>
             </div>
           </div>
