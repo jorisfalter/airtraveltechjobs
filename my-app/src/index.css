@@ -28,7 +28,6 @@ a:hover{
 .filterbox{
   text-align: center;
   /* width: 75%; /* for four filters */ 
-  width: 37.5%;
 
   /* background-color: rgb(83, 242, 83); */
   background: rgba(255, 255, 255, 0.3);
@@ -62,6 +61,10 @@ a:hover{
     background-color: red;
     color:white;
     cursor: pointer;
+  }
+  .filterbox{
+    width: 37.5%;
+
   }
 }
 
