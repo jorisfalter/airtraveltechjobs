@@ -49,7 +49,6 @@ function CompanyTile(props) {
               <br></br>
               <b>Industry:</b> {companyList[props.item].industry}
             </div>
-            <div className="centered"></div>
           </div>
 
           <div className="card-body">

@@ -8,6 +8,11 @@
   height: 350px;
 }
 
+.card-sm{
+  height: 250px;
+  width: 400px;
+}
+
 a:hover{
   text-decoration:none;
 }
