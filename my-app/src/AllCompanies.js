@@ -9,7 +9,7 @@ import departingPlane from "./images/departingplane.jpeg";
 // import companyList from "./companyList.json";
 
 var b = 0;
-var amountOfCompanies = 10;
+var amountOfCompanies = 12;
 
 function App2() {
   /////////////////// to make it random

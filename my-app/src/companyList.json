@@ -122,40 +122,28 @@
     "link":"https://www.regentcraft.com/careers"
 },
 {
-    "companyName": "Vertical Aerospace",
+    "companyName": "FlightConnections",
     "What Do They Do": "",
-    "whyCool":"",
-    "industry":"",
+    "whyCool":"An amazing site to find destinations, with a small team",
+    "industry":"Tracker",
     "sustainability":"",
-    "img":"",
-    "hq": "",
-    "hqContinent":["nothing"],
+    "img":"flightconnections.png",
+    "hq": "Netherlands",
+    "hqContinent":["Europe"],
     "remote": ["nothing"],
-    "link":""
+    "link":"https://www.flightconnections.com/contact/"
 },
 {
-    "companyName": "",
+    "companyName": "Virgin Atlantic",
     "What Do They Do": "",
-    "whyCool":"",
-    "industry":"",
+    "whyCool":"Rocking it like Richard Branson",
+    "industry":"Airline",
     "sustainability":"",
-    "img":"",
-    "hq": "",
-    "hqContinent":["nothing"],
+    "img":"virginatlantic.jpg",
+    "hq": "UK",
+    "hqContinent":["Europe"],
     "remote": ["nothing"],
-    "link":""
-},
-{
-    "companyName": "",
-    "What Do They Do": "",
-    "whyCool":"",
-    "industry":"",
-    "sustainability":"",
-    "img":"",
-    "hq": "",
-    "hqContinent":["nothing"],
-    "remote": ["nothing"],
-    "link":""
+    "link":"https://careersuk.virgin-atlantic.com/search-and-apply?fwp_department=digital-marketing%2Cit-business-change"
 },
 {
     "companyName": "",
