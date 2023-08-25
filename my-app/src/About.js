@@ -10,6 +10,8 @@ import flightradarguesstheairportPic from "./images/flightradarguesstheairportPi
 function About() {
   return (
     <div>
+      <title>Tab title?</title>
+
       <NewHeader />
       <main role="main">
         {/* <!-- Welcome Message --> */}
@@ -29,7 +31,8 @@ function About() {
         </section>
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">
-            <p>Hi, I'm Joris &#128075;</p>
+            <h2>Hi, I'm Joris &#128075;</h2>
+            <br></br>
             <p>Welcome to Air Travel Tech Jobs.</p>
 
             <p>
