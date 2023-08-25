@@ -11,6 +11,10 @@
 .card-sm{
   height: 250px;
   width: 400px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2) !important;
+
 }
 
 a:hover{
