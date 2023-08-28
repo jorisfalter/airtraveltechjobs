@@ -146,6 +146,18 @@
     "link":"https://careersuk.virgin-atlantic.com/search-and-apply?fwp_department=digital-marketing%2Cit-business-change"
 },
 {
+    "companyName": "Wingcopter",
+    "What Do They Do": "",
+    "whyCool":"",
+    "industry":"Manufacturing",
+    "sustainability":"",
+    "img":"",
+    "hq": "Germany",
+    "hqContinent":["Europe"],
+    "remote": ["nothing"],
+    "link":"https://wingcopter.com/careers"
+},
+{
     "companyName": "",
     "What Do They Do": "",
     "whyCool":"",
@@ -158,3 +170,4 @@
     "link":""
 }
 ]
+

@@ -3,9 +3,8 @@ import NewHeader from "./NewHeader";
 import Footer from "./Footer";
 import React from "react";
 import departingPlane from "./images/departingplane.jpeg";
-import randomAirportPic from "./images/randomairport.png";
-import flightsforflaneursPic from "./images/flightsforflaneurs.png";
-import flightradarguesstheairportPic from "./images/flightradarguesstheairportPic.png";
+import a318pic from "./images/a318.jpeg";
+import a380pic from "./images/a380.jpeg";
 
 function About() {
   return (
@@ -37,7 +36,8 @@ function About() {
               travel, airplanes and aviation technology.{" "}
             </p>
 
-            <p>I know, I'm one of them.</p>
+            <p>I know,</p>
+            <p> I'm one of them.</p>
 
             <p>
               If you want to attract not just any employee, but someone who goes
@@ -47,6 +47,38 @@ function About() {
             <p>
               Then consider sharing your open tech roles Air Travel Tech Jobs.
             </p>
+            <br></br>
+
+            <div className="row">
+              <div className="col-md-3">
+                <img
+                  src={a318pic}
+                  className="bd-placeholder-img card-img-top"
+                />
+              </div>
+              <div className="col-md-9">
+                <i>
+                  <br></br>
+                  <b>Simple Package:</b> 1 Role One Year: 487 USD
+                </i>
+              </div>
+            </div>
+            <br></br>
+            <div className="row">
+              <div className="col-md-3">
+                <img
+                  src={a380pic}
+                  className="bd-placeholder-img card-img-top"
+                />
+              </div>
+              <div className="col-md-9">
+                <i>
+                  <br></br>
+                  <b>Heavy Package:</b> 5 Roles One Year: 1.987 USD
+                </i>
+              </div>
+            </div>
+            <br></br>
 
             <p>
               You can share your roles by contacting me on{" "}
