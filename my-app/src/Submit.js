@@ -46,7 +46,8 @@ function About() {
               passionate exploration, someone who wants to change the world, ...
             </p>
             <p>
-              Then consider sharing your open tech roles Air Travel Tech Jobs.
+              Then consider sharing your open tech roles on Air Travel Tech
+              Jobs.
             </p>
             <br></br>
 
@@ -79,7 +80,7 @@ function About() {
               <div className="col-md-9">
                 <p>
                   <i>
-                    <b>Heavy Package:</b> 5 Roles One Year: 1.987 USD
+                    <b>Heavy Package:</b> 5 Roles One Year: 1.487 USD
                   </i>
                 </p>
               </div>
@@ -87,7 +88,7 @@ function About() {
             <br></br>
 
             <p>
-              You can share your roles by contacting me on{" "}
+              For questions, feel free to reach out on{" "}
               <a href="mailto:joris@jorisfalter.com">joris@jorisfalter.com</a>.{" "}
             </p>
           </div>

@@ -6,6 +6,7 @@ import departingPlane from "./images/departingplane.jpeg";
 import randomAirportPic from "./images/randomairport.png";
 import flightsforflaneursPic from "./images/flightsforflaneurs.png";
 import flightradarguesstheairportPic from "./images/flightradarguesstheairportPic.png";
+import mezelfijsbad from "./images/mezelfijsbad.jpeg";
 
 function About() {
   return (
