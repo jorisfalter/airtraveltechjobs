@@ -20,7 +20,7 @@ root.render(
         <Route path="/About" element={<About />} />
         <Route path="/Submit" element={<Submit />} />
 
-        <Route path="*" element={<Navigate to="/" />} />
+        {/* <Route path="*" element={<Navigate to="/" />} /> */}
       </Routes>
     </BrowserRouter>
     ,
