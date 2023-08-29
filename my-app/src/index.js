@@ -12,32 +12,12 @@ import Fun from "./Fun";
 import About from "./About";
 import Submit from "./Submit";
 
-// export default function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Layout />}>
-//           <Route index element={<Home />} />
-//           <Route path="blogs" element={<Blogs />} />
-//           <Route path="contact" element={<Contact />} />
-//           <Route path="*" element={<NoPage />} />
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<App />);
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* <App /> */}
       <Routes>
         <Route path="/" element={<App2 />} />
-        {/* <Route path="/AllCompanies" element={<App2 />} /> */}
         <Route path="/Fun" element={<Fun />} />
         <Route path="/About" element={<About />} />
         <Route path="/Submit" element={<Submit />} />
