@@ -70,6 +70,8 @@ function About() {
               threshold of a new flying revolution. Fingers crossed.
             </p>
 
+            <br></br>
+
             <h1>Community</h1>
             <p>
               Feel free to join the{" "}
@@ -78,6 +80,7 @@ function About() {
               </a>
               .{" "}
             </p>
+            <br></br>
 
             <h1>Blog</h1>
             <p>
@@ -87,6 +90,7 @@ function About() {
               Where is the innovation happening in Air Travel.{" "}
               <i>Coming Soon.</i>
             </p>
+            <br></br>
             <h1>Fun</h1>
 
             {/* <!-- fun --> */}
