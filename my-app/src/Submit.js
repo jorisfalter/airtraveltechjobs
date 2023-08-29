@@ -64,6 +64,8 @@ function About() {
                   </i>
                 </p>
                 <PayButton link="https://buy.stripe.com/4gwcOq8pA99QfRK144" />
+                {/* test product */}
+                {/* <PayButton link="https://buy.stripe.com/aEUbKm5dogCi20U7st" /> */}
               </div>
             </div>
             <br></br>

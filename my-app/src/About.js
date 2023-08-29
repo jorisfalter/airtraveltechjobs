@@ -70,19 +70,30 @@ function About() {
             </p>
 
             <h1>Community</h1>
-            <p>Feel free to join the Slack group. </p>
+            <p>
+              Feel free to join the{" "}
+              <a href="https://join.slack.com/t/airtraveltechjobs/shared_invite/zt-21xgqak53-plOeFRrOFt1BDqB_MLzJDw">
+                Slack group
+              </a>
+              .{" "}
+            </p>
 
             <h1>Blog</h1>
-            <p>The rise of the German drone taxi industry. Coming Soon.</p>
-            <p>Where is the innovation happening in Air Travel. Coming Soon.</p>
+            <p>
+              The rise of the German drone taxi industry. <i>Coming Soon.</i>
+            </p>
+            <p>
+              Where is the innovation happening in Air Travel.{" "}
+              <i>Coming Soon.</i>
+            </p>
             <h1>Fun</h1>
 
             {/* <!-- fun --> */}
 
-            <div className="row">
-              <div className="col-md-5">
+            <div className="row mt-4">
+              <div className="col-md-5 ">
                 <a href={"https://randomairport.onrender.com/"} target="_blank">
-                  <div className="card card-sm mb-4 shadow-sm">
+                  <div className="card card-sm shadow-sm">
                     {" "}
                     <div className="imageContainer">
                       <img
@@ -96,12 +107,14 @@ function About() {
               <div className="col-md-7">
                 <a href={""}>Random Airport</a> allows you to scroll through
                 aerial pics of the world's airports.
+                <br></br>
+                <br></br>
               </div>
             </div>
-            <div className="row">
+            <div className="row mt-4">
               <div className="col-md-5">
                 <a href={"http://www.flightsforflaneurs.com/"} target="_blank">
-                  <div className="card card-sm mb-4 shadow-sm">
+                  <div className="card card-sm shadow-sm">
                     {" "}
                     <div className="imageContainer">
                       <img
@@ -120,7 +133,7 @@ function About() {
                 want to fly.
               </div>
             </div>
-            <div className="row">
+            <div className="row mt-4">
               <div className="col-md-5">
                 <a
                   href={
@@ -128,7 +141,7 @@ function About() {
                   }
                   target="_blank"
                 >
-                  <div className="card card-sm mb-4 shadow-sm">
+                  <div className="card card-sm shadow-sm">
                     {" "}
                     <div className="imageContainer">
                       <img
@@ -151,10 +164,15 @@ function About() {
                 .{" "}
               </div>
             </div>
-            <i>
-              Inspired by <a href="www.keyvalues.com">Key Values</a>, RemoteOK,
-              and many other job boards.
-            </i>
+            <br></br>
+
+            <h1>Special Thanks </h1>
+            <p>
+              <i>
+                Inspired by <a href="www.keyvalues.com">Key Values</a>,
+                RemoteOK, and many other job boards.
+              </i>
+            </p>
           </div>
         </div>
       </main>
