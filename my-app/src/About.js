@@ -11,8 +11,6 @@ import mezelfijsbad from "./images/mezelfijsbad.jpeg";
 function About() {
   return (
     <div>
-      <title>Tab title?</title>
-
       <NewHeader />
       <main role="main">
         {/* <!-- Welcome Message --> */}
@@ -30,8 +28,14 @@ function About() {
             </p>
           </div>
         </section>
+
+        {/* introduction */}
         <div className="album py-5 bg-light ">
           <div className="container homepage-wrapper">
+            <img src={mezelfijsbad} className="mezelfijsbadpic" />
+            <br></br>
+            <br></br>
+
             <h2>Hi, I'm Joris &#128075;</h2>
             <br></br>
             <p>Welcome to Air Travel Tech Jobs.</p>
@@ -72,7 +76,7 @@ function About() {
 
             <br></br>
 
-            <h1>Community</h1>
+            <h1>🗣️ Community</h1>
             <p>
               Feel free to join the{" "}
               <a href="https://join.slack.com/t/airtraveltechjobs/shared_invite/zt-21xgqak53-plOeFRrOFt1BDqB_MLzJDw">
@@ -82,7 +86,7 @@ function About() {
             </p>
             <br></br>
 
-            <h1>Blog</h1>
+            <h1>📖 Blog</h1>
             <p>
               The rise of the German drone taxi industry. <i>Coming Soon.</i>
             </p>
@@ -91,7 +95,7 @@ function About() {
               <i>Coming Soon.</i>
             </p>
             <br></br>
-            <h1>Fun</h1>
+            <h1>🎉 Fun</h1>
 
             {/* <!-- fun --> */}
 
@@ -171,11 +175,13 @@ function About() {
             </div>
             <br></br>
 
-            <h1>Special Thanks </h1>
+            <h1> 🙏 Special Thanks</h1>
+
             <p>
               <i>
-                Inspired by <a href="www.keyvalues.com">Key Values</a>,
-                RemoteOK, and many other job boards.
+                Inspired by <a href="www.keyvalues.com">Key Values</a>,{" "}
+                <a href="https://remoteok.com/">RemoteOK</a>, and many other job
+                boards.
               </i>
             </p>
           </div>
