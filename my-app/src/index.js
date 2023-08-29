@@ -8,7 +8,6 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App2 from "./AllCompanies";
-import Fun from "./Fun";
 import About from "./About";
 import Submit from "./Submit";
 
@@ -18,9 +17,10 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App2 />} />
-        <Route path="/Fun" element={<Fun />} />
         <Route path="/About" element={<About />} />
         <Route path="/Submit" element={<Submit />} />
+
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
     ,
