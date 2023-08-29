@@ -5,6 +5,7 @@ import React from "react";
 import departingPlane from "./images/departingplane.jpeg";
 import a318pic from "./images/a318.jpeg";
 import a380pic from "./images/a380.jpeg";
+import PayButton from "./PayButton";
 
 function About() {
   return (
@@ -57,10 +58,12 @@ function About() {
                 />
               </div>
               <div className="col-md-9">
-                <i>
-                  <br></br>
-                  <b>Simple Package:</b> 1 Role One Year: 487 USD
-                </i>
+                <p>
+                  <i>
+                    <b>Simple Package:</b> 1 Role One Year: 487 USD
+                  </i>
+                </p>
+                <PayButton link="https://buy.stripe.com/4gwcOq8pA99QfRK144" />
               </div>
             </div>
             <br></br>
@@ -72,10 +75,11 @@ function About() {
                 />
               </div>
               <div className="col-md-9">
-                <i>
-                  <br></br>
-                  <b>Heavy Package:</b> 5 Roles One Year: 1.987 USD
-                </i>
+                <p>
+                  <i>
+                    <b>Heavy Package:</b> 5 Roles One Year: 1.987 USD
+                  </i>
+                </p>
               </div>
             </div>
             <br></br>
