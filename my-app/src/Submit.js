@@ -60,10 +60,12 @@ function About() {
               </div>
               <div className="col-md-9">
                 <p>
-                  <i>
-                    <b>Simple Package:</b> 1 Role One Year: 487 USD
-                  </i>
+                  <b>Simple Package:</b> 1 Role, <s>One Year</s>
+                  {"  "}
+                  <b style={{ color: "red", fontSize: "1.2rem" }}>Forever</b>:
+                  387 USD
                 </p>
+
                 {/* <PayButton link="https://buy.stripe.com/4gwcOq8pA99QfRK144" /> */}
                 {/* test product */}
                 <PayButton link="https://buy.stripe.com/aEUbKm5dogCi20U7st" />
@@ -79,9 +81,10 @@ function About() {
               </div>
               <div className="col-md-9">
                 <p>
-                  <i>
-                    <b>Heavy Package:</b> 5 Roles One Year: 1.487 USD
-                  </i>
+                  <b>Heavy Package:</b> 5 Roles, <s>One Year</s>
+                  {"  "}
+                  <b style={{ color: "red", fontSize: "1.2rem" }}>Forever</b>:
+                  1.487 USD
                 </p>
               </div>
             </div>
