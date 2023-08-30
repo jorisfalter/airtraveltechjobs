@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const PayButton = (props) => {
   return (
     <Link to={props.link}>
-      <button>Buy Now</button>
+      <button className="buyButton">Buy Now</button>
     </Link>
   );
 };
