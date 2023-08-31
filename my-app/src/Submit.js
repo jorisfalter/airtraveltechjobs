@@ -50,6 +50,7 @@ function About() {
               Jobs.
             </p>
             <br></br>
+            <h3>Packages</h3>
             <p>
               {" "}
               <span style={{ color: "red", fontSize: "1.2rem" }}>
@@ -57,6 +58,11 @@ function About() {
               </span>{" "}
               for next <s>10</s> 8 packages sold!
             </p>
+            <p>
+              For questions, say 👋 on{" "}
+              <a href="mailto:joris@jorisfalter.com">joris@jorisfalter.com</a>.{" "}
+            </p>
+            <br></br>
 
             <div className="row">
               <div className="col-md-3">
@@ -69,8 +75,10 @@ function About() {
                 <p>
                   <b>Simple Package:</b> 1 Role, <s>One Year</s>
                   {"  "}
-                  <b style={{ color: "red", fontSize: "1.2rem" }}>Forever</b>:
-                  387 USD
+                  <span style={{ color: "red", fontSize: "1.2rem" }}>
+                    Forever
+                  </span>
+                  : 387 USD
                 </p>
 
                 <PayButton
@@ -96,8 +104,10 @@ function About() {
                 <p>
                   <b>Heavy Package:</b> 5 Roles, <s>One Year</s>
                   {"  "}
-                  <b style={{ color: "red", fontSize: "1.2rem" }}>Forever</b>:
-                  1.487 USD
+                  <span style={{ color: "red", fontSize: "1.2rem" }}>
+                    Forever
+                  </span>
+                  : 1.487 USD
                 </p>
                 <PayButton
                   // test product
@@ -109,10 +119,14 @@ function About() {
               </div>
             </div>
             <br></br>
+            <br></br>
 
+            <h3>A Better World</h3>
             <p>
-              For questions, say hi on{" "}
-              <a href="mailto:joris@jorisfalter.com">joris@jorisfalter.com</a>.{" "}
+              This website is a passion project, mostly for fun. Nevertheless, I
+              donate 50% of anything this website makes to{" "}
+              <a href="https://www.savethechildren.org">Save The Children</a>. I
+              have two kids, children are the most precious thing in the world.{" "}
             </p>
           </div>
         </div>
