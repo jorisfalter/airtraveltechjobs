@@ -79,6 +79,22 @@ a:hover{
 }
 
 .buyButton{
+  background: white;
+  color: green;
+  border: 1px solid green;
+  padding: 10px 20px;
+  /* margin: 20px; */
+  /* font-size: 10px; */
+  /* font-weight: bold; */
+  box-shadow: 0 3px 5px #aaa;
+
+  /* where the magic happens */
+   border-radius: 25px /*% 60% 30% 50%; */
+}
+
+.buyButton:hover{
+  background: green;
+  color: white;
 }
 
 

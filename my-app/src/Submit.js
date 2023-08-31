@@ -50,6 +50,13 @@ function About() {
               Jobs.
             </p>
             <br></br>
+            <p>
+              {" "}
+              <span style={{ color: "red", fontSize: "1.2rem" }}>
+                Lifetime Deal Promotion
+              </span>{" "}
+              for next <s>10</s> 8 packages sold!
+            </p>
 
             <div className="row">
               <div className="col-md-3">
@@ -66,9 +73,15 @@ function About() {
                   387 USD
                 </p>
 
-                {/* <PayButton link="https://buy.stripe.com/4gwcOq8pA99QfRK144" /> */}
+                <PayButton
+                  link="https://buy.stripe.com/00gcOqbBM4TAdJCfZ0"
+                  type="Simple"
+                />
                 {/* test product */}
-                <PayButton link="https://buy.stripe.com/aEUbKm5dogCi20U7st" />
+                {/* <PayButton
+                  link="https://buy.stripe.com/aEUbKm5dogCi20U7st"
+                  type="simple"
+                /> */}
               </div>
             </div>
             <br></br>
@@ -86,12 +99,19 @@ function About() {
                   <b style={{ color: "red", fontSize: "1.2rem" }}>Forever</b>:
                   1.487 USD
                 </p>
+                <PayButton
+                  // test product
+                  link="https://buy.stripe.com/bIY3dQ49k2LsbBu7sw"
+                  // real product
+                  // link="https://buy.stripe.com/14k29MeNY4TA8pi3cf"
+                  type="Heavy"
+                />
               </div>
             </div>
             <br></br>
 
             <p>
-              For questions, feel free to reach out on{" "}
+              For questions, say hi on{" "}
               <a href="mailto:joris@jorisfalter.com">joris@jorisfalter.com</a>.{" "}
             </p>
           </div>
