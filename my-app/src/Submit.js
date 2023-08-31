@@ -101,9 +101,9 @@ function About() {
                 </p>
                 <PayButton
                   // test product
-                  link="https://buy.stripe.com/bIY3dQ49k2LsbBu7sw"
+                  // link="https://buy.stripe.com/bIY3dQ49k2LsbBu7sw"
                   // real product
-                  // link="https://buy.stripe.com/14k29MeNY4TA8pi3cf"
+                  link="https://buy.stripe.com/14k29MeNY4TA8pi3cf"
                   type="Heavy"
                 />
               </div>
