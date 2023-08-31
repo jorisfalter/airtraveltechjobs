@@ -7,6 +7,7 @@ import randomAirportPic from "./images/randomairport.png";
 import flightsforflaneursPic from "./images/flightsforflaneurs.png";
 import flightradarguesstheairportPic from "./images/flightradarguesstheairportPic.png";
 import mezelfijsbad from "./images/mezelfijsbad.jpeg";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -78,9 +79,9 @@ function About() {
 
             <h1>🗣️ Community</h1>
             <p>
-              Feel free to join the{" "}
+              Feel invited to join the{" "}
               <a href="https://join.slack.com/t/airtraveltechjobs/shared_invite/zt-21xgqak53-plOeFRrOFt1BDqB_MLzJDw">
-                Slack group
+                Air Travel Tech Jobs Slack community
               </a>
               .{" "}
             </p>
@@ -88,11 +89,13 @@ function About() {
 
             <h1>📖 Blog</h1>
             <p>
-              The rise of the German drone taxi industry. <i>Coming Soon.</i>
+              The Germans still know how to manufacture. <i>Coming Soon.</i>
             </p>
             <p>
               Where is the innovation happening in Air Travel.{" "}
-              <i>Coming Soon.</i>
+              <i>
+                <Link to="/AirTravelTechInnovation">Read Post</Link>
+              </i>
             </p>
             <br></br>
             <h1>🎉 Fun</h1>
@@ -174,10 +177,12 @@ function About() {
               </div>
             </div>
             <br></br>
+            <br></br>
 
             <h1> 🙏 Special Thanks</h1>
 
             <p>
+              <br></br>
               <i>
                 Inspired by <a href="www.keyvalues.com">Key Values</a>,{" "}
                 <a href="https://remoteok.com/">RemoteOK</a>, and many other job

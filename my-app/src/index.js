@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App2 from "./AllCompanies";
 import About from "./About";
 import Submit from "./Submit";
+import AirTravelTechInnovation from "./AirTravelTechInnovation";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,10 @@ root.render(
         <Route path="/" element={<App2 />} />
         <Route path="/About" element={<About />} />
         <Route path="/Submit" element={<Submit />} />
+        <Route
+          path="/AirTravelTechInnovation"
+          element={<AirTravelTechInnovation />}
+        />
       </Routes>
     </BrowserRouter>
     ,
