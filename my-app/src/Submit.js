@@ -56,7 +56,7 @@ function About() {
               <span style={{ color: "red", fontSize: "1.2rem" }}>
                 Lifetime Deal Promotion
               </span>{" "}
-              for next <s>10</s> 8 packages sold!
+              for next <s>10</s> 2 packages sold!
             </p>
             <p>
               For questions, say 👋 on{" "}
