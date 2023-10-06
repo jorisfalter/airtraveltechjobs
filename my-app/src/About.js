@@ -6,6 +6,7 @@ import departingPlane from "./images/departingplane.jpeg";
 import randomAirportPic from "./images/randomairport.png";
 import flightsforflaneursPic from "./images/flightsforflaneurs.png";
 import flightradarguesstheairportPic from "./images/flightradarguesstheairportPic.png";
+import a380Pic from "./images/wheredoesthea380fly.png";
 import mezelfijsbad from "./images/mezelfijsbad.jpeg";
 import { Link } from "react-router-dom";
 
@@ -143,6 +144,30 @@ function About() {
                 </a>{" "}
                 allows you to find all possible destinations based on when you
                 want to fly.
+              </div>
+            </div>
+            <div className="row mt-4">
+              <div className="col-md-5">
+                <a href={"https://www.wheredoesthea380fly.com"} target="_blank">
+                  <div className="card card-sm shadow-sm">
+                    {" "}
+                    <div className="imageContainer">
+                      <img
+                        src={a380Pic}
+                        className="bd-placeholder-img card-img-top"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div className="col-md-7">
+                A map to check which routes the A380 flies! <br></br>
+                <br></br>They are great planes to fly on, but they are being
+                retired left and right. <br></br>
+                <br></br>
+                <a href={"https://www.wheredoesthea380fly.com"}>This map</a>,
+                based on flights flown in last 7 days with A380s, helps you plan
+                your travels towards maximum A380 exposure :).{" "}
               </div>
             </div>
             <div className="row mt-4">
