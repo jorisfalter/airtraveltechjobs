@@ -67,8 +67,8 @@ function About() {
 
             <p>
               This is a slow project. I'll provide regular updates to the
-              website, nevertheless cool air travel companies don't just pop up
-              out of the ground every week.{" "}
+              website, nevertheless cool air travel companies don't fly off the
+              ground every week.{" "}
             </p>
             <p>
               Best case scenario: with new developments around drones
@@ -89,9 +89,6 @@ function About() {
             <br></br>
 
             <h1>📖 Blog</h1>
-            <p>
-              The Germans still know how to manufacture. <i>Coming Soon.</i>
-            </p>
             <p>
               Where is the innovation happening in Air Travel.{" "}
               <i>
