@@ -90,10 +90,48 @@ function About() {
 
             <h1>📖 Blog</h1>
             <p>
-              Where is the innovation happening in Air Travel.{" "}
-              <i>
-                <Link to="/AirTravelTechInnovation">Read Post</Link>
-              </i>
+              Where is the innovation happening in Air Travel:{" "}
+              <Link to="/AirTravelTechInnovation">Read Post </Link>
+              (Pinned - Oct 2023)
+            </p>
+            <p>
+              Alaska Airlines grounds Boeing 737 Max 9 planes after mid-air
+              window blowout :{" "}
+              <a href="https://news.ycombinator.com/item?id=38889774">
+                Read YC Discussion
+              </a>{" "}
+              (Jan 2024)
+            </p>
+            <p>
+              Can Microsoft Flight Simulator help me learn fly or make me a
+              better pilot:{" "}
+              <a href="https://news.ycombinator.com/item?id=38750411">
+                Read YC Discussion
+              </a>{" "}
+              (Dec 2023)
+            </p>
+            <p>
+              Pilots hide mental health problems so they don't loose their
+              licenses:{" "}
+              <a href="https://news.ycombinator.com/item?id=38678779">
+                Read YC Discussion
+              </a>{" "}
+              (Dec 2023)
+            </p>
+            <p>
+              {" "}
+              A Matter of Millimeters: The story of Qantas flight 32:{" "}
+              <a href="https://news.ycombinator.com/item?id=38586773">
+                Read YC Discussion
+              </a>{" "}
+              (Dec 2023)
+            </p>
+            <p>
+              Daedalaen's plan for an AI pilot:{" "}
+              <a href="https://www.flightradar24.com/blog/daedalean-ai-interview/?utm_campaign=website&utm_medium=email&utm_source=sendgrid.com">
+                Read FlightRadar article
+              </a>{" "}
+              (Nov 2023)
             </p>
             <br></br>
             <h1>🎉 Fun</h1>
