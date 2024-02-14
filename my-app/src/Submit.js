@@ -56,11 +56,11 @@ function About() {
               <span style={{ color: "red", fontSize: "1.2rem" }}>
                 Lifetime Deal Promotion
               </span>{" "}
-              for next <s>10</s> 2 packages sold!
+              for next <s>10</s> 2 packages
             </p>
             <p>
               For questions, say 👋 on{" "}
-              <a href="mailto:joris@jorisfalter.com">joris@jorisfalter.com</a>.{" "}
+              <a href="mailto:joris@jorisfalter.com">joris@jorisfalter.com</a>{" "}
             </p>
             <br></br>
 
@@ -73,7 +73,7 @@ function About() {
               </div>
               <div className="col-md-9">
                 <p>
-                  <b>Simple Package:</b> 1 Role, <s>One Year</s>
+                  <b>Simple Package:</b> 1 Role <s>One Year</s>
                   {"  "}
                   <span style={{ color: "red", fontSize: "1.2rem" }}>
                     Forever
@@ -102,7 +102,7 @@ function About() {
               </div>
               <div className="col-md-9">
                 <p>
-                  <b>Heavy Package:</b> 5 Roles, <s>One Year</s>
+                  <b>Heavy Package:</b> 5 Roles <s>One Year</s>
                   {"  "}
                   <span style={{ color: "red", fontSize: "1.2rem" }}>
                     Forever
